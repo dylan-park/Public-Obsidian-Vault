@@ -1,0 +1,87 @@
+---
+tags:
+  - work
+  - ccna
+---
+- ## IPv6 Header
+	- ### Version
+		- Length: 4 bits
+		- Indicates the version of IP that is used
+		- Fixed value of 6 (0b0110) to indicate IPv6
+	- ### Traffic Class
+		- Length: 8 bits
+		- Used for QoS (Quality of Service), to indicate high-priority traffic
+		- For example, IP phone traffic, live video calls, etc. will have a Traffic Class value which gives them priority over other traffic
+	- ### Flow Label
+		- Length: 20 bits
+		- Used to identify specific traffic 'flows' (communication between a specific source and destination)
+	- ### Payload Length
+		- Length: 16 bits
+		- Indicates the length of the payload (the encapsulated Layer 4 segment) <u>in bytes</u>
+		- The length of the IPv6 header itself isn't included, because it's always 40 bytes
+	- ### Next Header
+		- Length: 8 bits
+		- Indicates the type of the 'neat header' (header of the encapsulated segment), for example TCP of UDP
+		- Same function as the IPv4 header's 'Protocol' field
+	- ### Hop Limit
+		- Length: 8 bits
+		- The value in this field is decremented by 1 by each router that forwards it. If it reaches 0, the packet is discarded
+		- Same function as the IPv4 header's 'TTL' field
+	- ### Source Address
+		- Length: 128 bits
+		- Contains the IPv6 address of the packet's source
+	- ### Destination Address
+		- Length: 128 bits
+		- Contains the IPv6 address of the packet's intended destination
+- ## Solicited-Node Multicast Address
+	- An IPv6 solicited-node multicast address is calculated from a unicast address
+		- ff02:0000:0000:0000:0000:0001:ff + Last 6 hex digits of unicast address
+		- 2001:0db8:0000:0001:0f2a:4fff:fe**a3:00b1** → ff02::1:ffa3:b1
+- ## Neighbor Discovery Protocol (NDP)
+	- Neighbor Discovery Protocol (NDP) is a protocol used with IPv6
+	- It has various functions, and one of those functions is to replace ARP, which is no longer used in IPv6
+	- The ARP-like function of NDP uses ICMPv6 and solicited-node multicast addresses to learn the MAC address of other hosts
+		- ARP is IPv4 uses broadcast messages
+	- Two message types are used:
+		- Neighbor Solicitation (NS) = ICMPv6 Type 135
+			- ![[Pasted image 20240328154523.png]]
+		- Neighbor Advertisement (NA) = ICMPv6 Type 136
+			- ![[Pasted image 20240328154607.png]]
+	- `show ipv6 neighbor` command shows IPv6 neighbor table
+	- Another function of NDP allows hosts to automatically discover routers on the local network
+		- Two messages are used for this process:
+			- Router Solicitation (RS) = ICMPv6 Type 133
+				- Sent to multicast address FF02::2 (all routers)
+				- Asks all routers on the local link to identify themselves
+				- Sent when an interface is enabled/host is connected to the network
+			- Router Advertisement (RA) - ICMPv6 Type 134
+				- Sent to multicast address FF02::1 (all nodes)
+				- The router announces its presence, as well as other information about the link
+				- These messages are sent in response to RS messages
+				- They are also sent periodically, even if the router hasn't received an RS
+	- ### SLAAC
+		- Stands for **Stateless Address Auto-configuration**
+		- Hosts use the RS/RA messages to learn the IPv6 prefix of the local link (ie. 2001:db8:\:/64), and then automatically generate an IPv6 address
+		- Using the `ipv6 address *prefix/prefix-length* eui-64` command, you need to manually enter the prefix
+		- Using the `ipv6 address autoconfig` command, you don't need to enter the prefix, the device used NDP to learn the prefix used on the local link
+		- The device will use EUI-64 to generate the interface ID, or it will be randomly generated (depending on the device/maker)
+	- ### Duplicate Address Detection (DAD)
+		- Duplicate Address Detection (DAD) allows hosts to check if other devices on the local link are using the same IPv6 address
+		- Any time an IPv6-enabled interface initialized (no shutdown command), or an IPv6 address is configured on an interface (by any method: manual, SLAAC, etc.), it performs DAD
+		- Dad uses two message types: NS and NA
+		- The host will send an NS to its own IPv6 address. If it doesn't get a reply, it knows the address is unique
+		- If it gets a reply, it means another host on the network is already using the address
+- ## IPv6 Static Routing
+	- IPv6 routing works the same as IPv4 routing
+		- However, the two proceeds are separate on the router, and the two routing tables are separate as well
+	- IPv4 routing is enabled by default
+	- IPv6 routing is disabled by default, and must be enabled with the `ipv6 unicast-routing` command
+	- If IPv6 routing is disabled, the router will be able to send and receive IPv6 traffic, but will not route IPv6 traffic (=will not forward it between networks)
+	- A connected *network route* is automatically added for each connected network
+	- A local *host route* is automatically configured on the router
+	- Routes for link-local addresses are not added to the routing table
+	- `ipv6 route *destination*/*prefix-length* *next-hop*` command specifies an IPv6 static route w/ next hop address, **Recursive** static route
+	- `ipv6 route *destination*/*prefix-length* *exit-interface*` command specifies an IPv6 static route w/ exit interface, **Directly attached** static route
+		- In IPv6, you can't use directly attached static routes if the interface is an Ethernet interface
+	- `ipv6 route *destination*/*prefix-length* *exit-interface* *next-hop*` command specifies an IPv6 static route w/ exit interface and next hop, **Fully specified** static route
+	- `ipv6 route *destination*/*prefix-length* *next-hop* *ad*` command specifies an IPv6 static route w/ next hop and ad, **Floating** static route

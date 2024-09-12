@@ -1,0 +1,58 @@
+---
+tags:
+  - work
+  - ccna
+---
+- ## Data Serialization
+	- Data serialization is the process of converting data into a standardized format/structure that can be stored (in a file) or transmitted (over a network) and reconstructed later (i.e. by a different application)
+		- This allows the data to be communicated between applications in a way both applications understand
+	- Data serialization language allow us to represent *variables* with text
+		- Variables are containers that store values
+- ## JSON ^ccna-json
+	- **JSON** (JavaScript Object Notation) is an open standard **file format** and **data interchange format** that uses human-readable text to store and transmit data objects
+	- It is standardized in [RFC 8259](https://datatracker.ietf.org/doc/html/rfc8259)
+	- It was derived from JavaScript, but it is language-independent and many modern programming languages are able to generate and read JSON data
+		- REST APIs often use JSON
+	- *Whitespace* is insignificant
+	- JSON can represent four 'primitive' data types:
+		- ### String
+			- A **string** is a text value
+			- It is surrounded by double quotes " "
+		- ### Number
+			- A **number** is a numeric value
+			- It is not surrounded by quotes
+		- ### Boolean
+			- A **boolean** is a data type that has only two possible values
+				- true and false
+			- Not surrounded by quotes
+		- ### Null
+			- A **null** value represents the intentional absence of any object value
+			- It is not surrounded by quotes
+	- JSON also has two 'structured' data types:
+		- ### Object
+			- An **object** is an unordered list of *key-value pairs* (variables)
+			- Objects are surrounded by curly brackets {}
+			- The *key* is a string
+			- The *value* is any valid JSON data type (string, number, boolean, null, object, array)
+			- The *key* and *value* are separated by a colon :
+			- If there are multiple key-value pairs, each pair is separated by a comma
+			- Sometimes called a **dictionary**
+		- ### Array
+			- An **array** is a series of values separated by commas
+				- Not *key-value pairs*
+				- The values don't have to be the same data type
+- ## XML ^ccna-xml
+	- **XLM** (Extensible Markup Language) was developed as a markup language, but is now used as a general data serialization language
+		- Markup languages (i.e. HTLM) are used to format text (front, size, color, headings, etc.)
+	- XML is generally less human-readable than JSON
+	- Whitespace is insignificant
+	- Often used by REST APIs
+	- \<key>value\</key>
+- ## YAML
+	- **YAML** originally meant *Yet Another Markup Language*, but to distinguish its purpose as a data-serialization language rather than a markup language, it was repurposed to *YAML Ain't Markup Language*
+	- YAML is used by the network automation tool [[Day 63 - Ansible, Puppet, & Chef#^ccna-ansible|Ansible]]
+	- YAML is very human-readable
+	- Whitespace **is significant**, and indentation is very important
+	- YAML files start with ---
+	- - is used to indicate a list
+	- Keys and values are represented as key:value

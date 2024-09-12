@@ -1,0 +1,75 @@
+---
+tags:
+  - work
+  - ccna
+---
+## Day 5
+
+- **LAN** - A network contained within a small area
+	- Routers are used to connect separate LANs
+- ### Ethernet Header: ^ccna-ethernet-header
+	- #### Preamble
+		- Length: 7 bytes
+		- Alternating 1's and 0's (10101010*7)
+		- Allows devices to synchronize their receiver clocks
+	- #### SFD (Start Frame Delimiter)
+		- Length: 1 byte
+		- 10101011
+		- Marks the end of the preamble and the beginning of the rest of the frame
+		- Preamble and SFD are used for synchronization, and mark the head of the frame, but are usually not considered part of the Ethernet header
+	- #### Destination
+		- Length: 6 bytes
+		- The layer 2 (MAC) address to which the frame is being sent
+	- #### Source
+		- Length: 6 bytes
+		- The layer 2 (MAC) address of the device which sent the frame
+	- #### Type/Length
+		- Length: 2 bytes
+		- A value of 1536 or greater in this field Indicates the layer 3 protocol used in the encapsulated packet
+			- Is almost always IPv4 or IPv6
+				- IPv4 = 0x0800 (2048 in decimal)
+				- IPv6 = 0x86DD (34525 in decimal)
+		- A value of 1500 of less in this field indicates the length instead of type
+- ### Ethernet Trailer:
+	- #### FCS
+		- Length: 4 bytes
+		- Detects corrupted data by running a 'CRC' (Cyclic Redundancy Check) algorithm over the received data
+- Ethernet Frame Header + Trailer = 18 bytes
+- The minimum size for an Ethernet Frame (Header + Payload \[Packet\] + Trailer) is 64 bytes
+	- 64 bytes - 18 byes (header + trailer) = 46 bytes (minimum payload/packet size)
+	- If the payload is less than 46 bytes, padding bytes are added (all 0's)
+- ### MAC - Media Access Control
+	- 6 byte (48 bit) address of the physical device
+	- BIA (Burned-In Address)
+	- Globally unique
+	- The first 3 bytes are the OUI (Organizationally Unique Identifier), which is assigned to the company making the device
+	- The last 3 bytes are unique to the device itself
+	- Written as 12 hexadecimal characters
+- **Unicast frame** - a frame destined for a single target
+	- **Unknown Unicast frame** - a frame for which a switch does not have the destination in its mac address table
+		- Flood frame - sends out the frame to all available interfaces to find the correct one
+	- **Known Unicast frame** - a frame destined for a target the switch already has in its mac address table
+		- Forward frame
+- On Cisco switches, dynamic MAC addresses are removed from the MAC address table after 5 minutes of inactivity (Aging)
+
+## Day 6
+
+- **ARP** - Address Resolution Protocol
+	- Used to discover the Layer 2 address (MAC) of a known Layer 3 address (IP)
+	- Consists of two messages:
+		- ARP Request
+			- Broadcast: sent to all hosts on the network
+			- FFFF.FFFF.FFFF
+		- ARP Reply
+			- Unicast: sent only to one host (the one that sent the request)
+	- `arp -a` to view the ARP table on Windows
+	- `show arp` to view the ARP table on Cisco IOS
+- **Ping** - A network utility that is used to test reachability
+	- Measures round-trip time
+	- Uses two messages:
+		- ICMP Echo Request
+		- ICMP Echo Reply
+- `show mac address-table` to view MAC Address table on Cisco IOS
+- `clear mac address-table dynamic` to clear the dynamic MAC Addresses on the table
+	- `clear mac address-table dynamic address *mac-address*` to clear only specified MAC Address from the table
+	- `clear mac address-table dynamic interface *interface-id*` to clear all MAC Addresses from a specific interface from the table

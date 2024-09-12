@@ -1,0 +1,60 @@
+---
+tags:
+  - work
+  - ccna
+---
+- ## SD-Access
+	- Cisco **SD-Access** is Cisco's SDN solution for automation campus LANs
+		- ACI (Application Centric Infrastructure) is their SDN solution for automating data center networks
+		- SD-WAN is their SDN solution for automating WANs
+	- Cisco **DNA (Digital Network Architecture) Center** is the controller at the center of SD-Access
+	- The **Underlay** is the underlying physical network of devices and connections (including wired and wireless) which provides IP connectivity (i.e. using [[Day 24 - Dynamic Routing#^ccna-is-is|IS-IS]])
+		- Multilayer switches and their connections
+	- The **Overlay** is the virtual network built on top of the physical underlay network
+		- SD-Access uses VXLAN (Virtual Extensible LAN) to build tunnels
+	- The **Fabric** is the combination of the overlay and underlay; the physical and virtual network as a whole
+	- ### Underlay
+		- The underlay's purpose is to support the VXLAN tunnels of the overlay
+		- There are three different roles for switches in SD-Access:
+			- **Edge Nodes**: Connect to end hosts
+			- **Border Nodes**: Connect to devices outside the SD-Access domain, i.e. WAN routers
+			- **Control Nodes**: Use LISP (Location ID Separation Protocol) to perform various control plane functions
+		- You can add SD-Access on top of an existing network (*brownfield deployment*) if your network hardware and software supports it
+			- In this case DNA Center won't configure the underlay
+		- A new deployment (*greenfield deployment*) will be configured by DNA Center to use the optimal SD-Access underlay:
+			- All switches are Layer 3 and use [[Day 24 - Dynamic Routing#^ccna-is-is|IS-IS]] as their routing protocol
+			- All links between switches are routed ports, this means STP is not needed
+			- Edge nodes (access switches) act as the default gateway of end hosts (*routed access layer*)
+	- ### Overlay
+		- LISP provides the control plane of SD-Access
+			- A list of mappings of EIDs (endpoint identifiers) to RLOCs (routing locators) is kept
+				- EIDs identify end hosts connected to edge switches, and RLOCs identify the edge switch which can be used to reach the end
+		- Cisco TrustSec (CTS) provides policy control (QoS, security policy, etc.)
+		- VXLAN provides the data plane of SD-Access
+- ## Cisco DNA Center
+	- Cisco DNA Center has two main roles:
+		- The SDN controller in SD-Access
+		- A network manager in a traditional network (non-SD-Access)
+		- DNA Center is an application installed on Cisco UCS server hardware
+		- It has a REST API which can be used to interact with DNA center
+		- The SBI supports protocols such as NETCONF and RESTCONF (as well as traditional protocols like [[Day 42 - SSH#^ccna-telnet|Telnet]], [[Day 42 - SSH#^ccna-ssh|SSH]], SNMP)
+		- DNA Center enables *Intent-Based Networking* (IBN)
+			- The goal is to allow the engineer to communicate their intent for network behavior to DNA center, and then DNA Center will take care of the details of the actual configuration and policies on devices
+		- Traditional security policies using ACLs can become very cumbersome
+			- ACLs can have thousands of entries
+			- The intent of entries is forgotten with time and as engineers leave and new engineers take over
+			- Configuring and applying the ACLs correctly across a network is cumbersome and leaves room for error
+		- DNA Center allows the engineer to specify the intent of the policy (this group of users can't communicate with this group, this group can access this server but not that server, etc.), and DNA Center will take care of the exact details of implementing the policy
+- ## Cisco DNA Center vs Traditional Network Management
+	- Traditional network management:
+		- Devices are configured one-by-one via [[Day 42 - SSH#^ccna-ssh|SSH]] or console connection
+		- Devices are manually configured via console connection before being deployed
+		- Configurations and policies are managed per-device. (distributed)
+		- New network deployments can take a long time due to the manual labor required
+		- Errors and failures are more likely due to increased manual effort
+	- DNA Center-based network management:
+		- Devices are centrally managed and monitored from the DNA Center GUI or other applications using its REST API
+		- The administrator communicates their intended network behavior to DNA Center, which changes those intentions into configurations on the managed network devices
+		- Configurations and policies are centrally managed
+		- Software versions are also centrally managed. DNA Center can monitor cloud servers for new versions and then update the managed devices
+		- New network deployments are much quicker. New devices can automatically receive their configurations from DNA Center without manual configuration

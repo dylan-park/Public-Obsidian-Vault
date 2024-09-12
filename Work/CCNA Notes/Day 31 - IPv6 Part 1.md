@@ -1,0 +1,42 @@
+---
+tags:
+  - work
+  - ccna
+---
+- ## Why IPv6?
+	- The main reason is that there aren't enough IPv4 addresses available
+		- There are 4,294,967,296 (2^32) IPv4 addresses available
+	-  An IPv6 address is 128 bits
+		- There are 340,282,366,920,938,463,374,607,431,768,211,456 (2^128) IPv6 addresses
+	- VLSM, private IPv4 addresses, and NAT have been used to conserve the use of IPv4 address space, but are short term solutions
+- ## IPv4 Address Assignment:
+	- IPv4 address assignments are controlled by IANA (Internet Assigned Numbers Authority)
+	- IANA distributes address space to various RIRs (Regional Internet Registries), which then assign them to companies that need them
+- ## Shortening IPv6 Addresses
+	- **Leading 0s** can be removed
+		- 2001:**0**DB8:**000**A:**00**1B:20A1:**00**20:**00**80:34BD → 2001:DB8:A:1B:20A1:20:80:34BD
+	- **Consecutive quartets of all 0s** can be replaced with a double colon (:\:)
+		- 2001:0DB8:**0000:0000:0000:0000**:0080:34BD → 2001:0DB8::0080:34BD
+		- Consecutive quartets of 0s can only be abbreviated once in an IPv6 address
+	- Combine both methods:
+		- 2001:DB8::80:34BD
+- ## Expanding Shortened IPv6 Addresses
+	- Put leading 0s where needed (all quartets should have 4 hexadecimal characters)
+		- FE80::2:0:0:FBE8 → FE80::0002:0000:0000:FBE8
+	- If a double colon is used, replace it with all-0 quartets. Make sure there are 8 quartets in total
+		- FE80::0002:0000:0000:FBE8 → FE80:0000:0000:0000:0002:0000:0000:FBE8
+- ## Finding the IPv6 Prefix (Global Unicast Addresses)
+	- Typically, an enterprise requesting IPv6 addresses from their ISP will receive a /48 block
+	- Typically, IPv6 subnets use a /64 prefix length
+	- That means an enterprise has 16 bits to use to make subnets
+	- The remaining 64 bits can be used for hosts
+	- ![[Pasted image 20240319185123.png]]
+		- To find the IPv6 prefix length, make the second half all 0s
+			- 2001:0DB8:8B00:0001:0000:0000:0000:0001/64 → 2001:DB8:8B00:1::/64
+			- ![[Pasted image 20240319185355.png]]
+			- ![[Pasted image 20240319185438.png]]
+- ## Configuring IPv6 Addresses
+	- `ipv6 unicast-routing` command allows the router to perform IPv6 routing
+		- Router will not use IPv6 addresses otherwise
+	- `ipv6 address *address*/*prefix length*` command sets address
+	- `show ipv6 interface brief` command shows ipv6 interface info

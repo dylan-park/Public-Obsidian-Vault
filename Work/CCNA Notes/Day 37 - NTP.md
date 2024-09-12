@@ -1,0 +1,80 @@
+---
+tags:
+  - work
+  - ccna
+---
+- ## The Importance of Time
+	- All devices have an internal clock (routers, switches, your PC, etc.)
+	- `show clock` command shows you the current time
+		- The default time zone is UTC
+		- \* = time is not considered authoritative
+	- `show clock detail` command shows you the current time with time source
+		- The hardware calendar is the default time source
+	- The internal hardware clock of a device will drift over time, so it is not the ideal time source
+	- The most important reason to have accurate time on a device is to have accurate logs for troubleshooting
+	- `show calendar (*detail*)` command shows the current hardware clock time
+- ## Manual Time Configuration
+	- Although the hardware calendar (built-in clock) is the default time-source, the hardware clock and software clock are separate and can be configured separately
+	- ### Software Clock
+		- `clock set *hh:mm:ss* *day-of-month* *month-of-year* *year*` command allows you to manually configure the time on the device
+			- Changes time source to user configuration
+			- Separate from running configuration
+	- ### Hardware Clock
+		- `calendar set *hh:mm:ss* *day-of-month* *month-of-year* *year*` command allows you to manually configure the hardware clock
+	- Typically you will want to synchronize the clock and calendar
+		- `clock update-calendar` command syncs the calendar to the clock's time
+		- `clock read-calendar` command syncs the clock to the calendar's time
+	- ### Time Zone Configuration
+		- Changes to the time zone become part of the running config
+		- `clock timezone *time-zone* *hours-offset-from-utc* *minutes-offset-from-utc*`
+	- ### Daylight Saving Time
+		- `clock summer-time *time-zone* recurring *week-to-start* *weekday-to-start* *month-to-start* *time-to-start* *week-to-end* *weekday-to-end* *month-to-end* *time-to-end*` command sets up recurring daylight savings configuration
+- ## NTP
+	- Manually configuring the time on devices is not scalable
+		- The manually configured clocks will drive, resulting in inaccurate time
+	- NTP (Network Time Protocol) allows automatic syncing of time over a network
+	- NTP clients request the time from NTP servers
+	- A device can be an NTP server and an NTP client at the same time
+	- NTP allows accuracy of time within:
+		- ~1 millisecond if the NTP server is in the same LAN
+		- ~50 milliseconds if connecting to the NTP server over a WAN/the Internet
+	- Some NTP servers are 'better' than others
+		- The 'distance' of an NTP server from the original **reference clock** is called **stratum**
+	- NTP uses UDP port 123 to communicate
+	- NTP uses only the UTC time zone, you need to configure the appropriate time zone on each device
+	- ### Reference Clocks
+		- A reference clock is usually a very accurate time device, like an atomic clock or a GPS clock
+		- Reference clocks are **stratum 0** within the NTP hierarchy
+		- NTP servers directly connected to reference clocks are **stratum 1** (or **primary servers**)
+		- NTP servers connected to stratum 1 servers are **stratum 2**, etc. (called **secondary servers**)
+		- **Stratum 15** is the maximum, anything above that is considered unreliable
+		- Devices can also 'peer' with devices at the same stratum to provide more accurate time
+			- This is called 'symmetric active' mode
+		- An NTP client can sync to multiple NTP servers
+	- ### Configuration
+		- `ntp server *ip-address*` command adds a NTP server
+			- You can add multiple IPs
+			- The order of these do not matter
+		- `show ntp associations` command lists all configured NTP servers, and information about them
+			- \* = System Peer, the server the device is currently syncing to
+			- + = Candidate, servers that are candidates to become the system peer
+			- ~ = Configured
+			- st = Stratum Level
+		- `show ntp status` command gives NTP status information on the current device
+		- NTP does not update the calendar by default
+			- `ntp update-calendar` command configures the router to update the calendar with the time learned via NTP
+		- `ntp source *interface*` command sets the source of the NTP messages a device will send out
+		- #### NTP Server Mode
+			- `ntp master` command sets the device to act as an NTP master clock
+				- The default stratum of the *ntp master* command is 8
+		- #### NTP Symmetric Active Mode
+			- `ntp peer *ip-address*` command sets a device to run in NTP symmetric active mode with the given peer
+		- #### NTP Authentication
+			- NTP authentication can be configured, although it is optional
+			- It allows NTP clients to ensure they only sync to the intended servers
+			- To configure NTP authentication:
+				1. `ntp authenticate` command enables NTP authentication on the device
+				2. `ntp authentication-key *key-number* md5 *key*` command creates the NTP authentication keys
+				3. `ntp trusted-key *key-number*` command specifies the trusted key(s)
+				4. `ntp server *ip-address* key *key-number*` command specifies which key to use for the server
+					- This command isn't needed on the server itself
