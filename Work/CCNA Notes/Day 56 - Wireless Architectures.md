@@ -4,7 +4,7 @@ tags:
   - ccna
 ---
 - ## 802.11 Frame Format
-	- ![[Pasted image 20240507134548.png]]
+	- ![[Assets/Pasted image 20240507134548.png]]
 	- 802.11 frames have a different format than [[Day 5 & 6 - Ethernet LAN Switching#^ccna-ethernet-header|802.3 Ethernet frames]]
 	- Depending on the 802.11 version and the message type, some of the fields might not be present in the frame
 		- For example, not all messages use all 4 address fields
@@ -43,7 +43,7 @@ tags:
 		- **Active Scanning**: The station sends probe requests and listens for a probe scanning response from an AP
 		- **Passive Scanning**: The station listens for **beacon** messages from an AP
 			- Beacon messages are sent periodically by APs to advertise the BSS
-	- ![[Pasted image 20240507135951.png]]
+	- ![[Assets/Pasted image 20240507135951.png]]
 - ## 802.11 Message Types
 	- ### Management
 		- Used to manage the BBS

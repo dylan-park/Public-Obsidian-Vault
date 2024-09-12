@@ -39,7 +39,7 @@ tags:
 				- Example variables: Interface status, traffic throughput, CPU usage, temperature, etc.
 	- ### SNMP OIDs
 		- SNMP Object IDs are organized in a hierarchical structure
-		- ![[Pasted image 20240411155804.png]]
+		- ![[Assets/Pasted image 20240411155804.png]]
 - ## SNMP Versions
 	- Many versions of SNMP have been proposed/developed, however only three major versions have achieved wide-spread use:
 		- **SNMPv1**

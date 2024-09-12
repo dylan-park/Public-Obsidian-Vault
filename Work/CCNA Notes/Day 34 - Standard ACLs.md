@@ -10,7 +10,7 @@ tags:
 		- Source/Destination Layer 4 ports
 		- Etc.
 	- ### Example Setup
-		- ![[Pasted image 20240330010604.png]]
+		- ![[Assets/Pasted image 20240330010604.png]]
 		- #### Requirements
 			- Hosts in 192.168.1.0/24 can access the 10.0.1.0/24 network
 			- Hosts in 192.168.2.0/24 cannot access the 10.0.1.0/24 network

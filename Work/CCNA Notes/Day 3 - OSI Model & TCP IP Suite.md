@@ -79,4 +79,4 @@ tags:
 | 4       | 3                 |
 | 3       | 2                 |
 | 2, 1    | 1                 |
- ![[Pasted image 20240128013322.png]]
+ ![[Assets/Pasted image 20240128013322.png]]

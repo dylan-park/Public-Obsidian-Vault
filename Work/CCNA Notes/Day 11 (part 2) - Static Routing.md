@@ -3,7 +3,7 @@ tags:
   - work
   - ccna
 ---
-![[Pasted image 20240206202017.png]]
+![[Assets/Pasted image 20240206202017.png]]
 - End hosts like PC1 and PC4 can send packets directly to destinations in their connected network
 	- PC1 is connected to 192.168.1.0/24, PC4 is connected to 192.168.4.0/24
 - To send packets to destinations outside their local network, they must send the packets to their default gateway

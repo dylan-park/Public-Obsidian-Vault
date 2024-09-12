@@ -71,7 +71,7 @@ tags:
 				- Every time a Hello packet is received, the 'Dead' timer (40 seconds by default) is reset
 				- If the Dead timer counts down to 0 and no Hello message is received, the neighbor is removed
 				- The routers will continue to share LSAs as the network changes to make sure each router has a complete and accurate map of the network (LSDB)
-			- ![[Pasted image 20240305204548.png]]
+			- ![[Assets/Pasted image 20240305204548.png]]
 		- `show ip ospf neighbor` command will show a router's neighbor table
 	- `ip ospf *process-id area *area*` command activates OSPF directly on an interface
 	- `passive-interface default` command configures ALL interfaces as OSPF passive by default on a router

@@ -6,7 +6,7 @@ tags:
 - There are 2 methods of configuring the native VLAN on a router:
 	- `encapsulation dot1q *vlan-id* native` command on the router subinterface
 	- Configure the IP address for the native VLAN on the router's physical interface
-![[Pasted image 20240215184105.png]]
+![[Assets/Pasted image 20240215184105.png]]
 - **Layer 3 (Multilayer) Switch** - capable of both switching AND routing
 	- It is 'Layer 3 aware'
 	- You can assign IP addresses to its interfaces, like a router

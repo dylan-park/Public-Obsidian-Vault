@@ -3,7 +3,7 @@ tags:
   - work
   - ccna
 ---
-![[Pasted image 20240207222314.png]]
+![[Assets/Pasted image 20240207222314.png]]
 - Each interface on a switch has a MAC address
 
 - PC1 > PC4

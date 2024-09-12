@@ -8,13 +8,13 @@ tags:
 		- The answer to most general questions about network design is 'it depends'.
 	- ### Star
 		- When several devices all connect to one central device, we can draw them in a 'star' shape
-		- ![[Pasted image 20240429165632.png]]
+		- ![[Assets/Pasted image 20240429165632.png]]
 	- ### Full Mesh
 		- When each device is connected to each other device
-		- ![[Pasted image 20240429165727.png]]
+		- ![[Assets/Pasted image 20240429165727.png]]
 	- ### Partial Mesh
 		- When some devices are connected to each other, but not all
-		- ![[Pasted image 20240429165746.png]]
+		- ![[Assets/Pasted image 20240429165746.png]]
 - ## Two-Tier LAN Design
 	- The two-tier LAN design consists of two hierarchical layers:
 		- **Access Layer**
@@ -28,7 +28,7 @@ tags:
 			- Typically is the border between Layer 2 and Layer 3
 			- Connects to services such as Internet, WAN, etc.
 	- Also called a 'Collapsed Core' design because it omits a layer that is found in the Three Tier design: the **Core Layer**
-	- ![[Pasted image 20240429170821.png]]
+	- ![[Assets/Pasted image 20240429170821.png]]
 	- In large LAN networks with many Distribution Layer switches (for example in separate buildings), the number of connections required between Distribution Layer switches grows rapidly
 		- To help scale large LAN networks, you can add a Core Layer
 		- Cisco recommends adding a Core Layer if there are more than three Distribution Layers in a single location
@@ -42,15 +42,15 @@ tags:
 			- CUP-intensive operations such as security, QoS marking/classification, etc. should be avoided at this layer
 			- Connections are all Layer 3, no spanning tree
 			- Should maintain connectivity throughout the LAN even if devices fail
-	- ![[Pasted image 20240429171439.png]]
+	- ![[Assets/Pasted image 20240429171439.png]]
 - ## Spine-Leaf Architecture
 	- Data centers are dedicated spaces/buildings used to store computer systems such as servers and network devices
 	- Traditional data center designs used a three-tier architecture
 		- This worked well when most traffic in the data center was North-South
-		- ![[Pasted image 20240429171722.png]]
+		- ![[Assets/Pasted image 20240429171722.png]]
 	- With the precedence of virtual servers, applications are often deployed in a distributed manner (across multiple physical servers), which increases the amount of East-West traffic in the data center
 	- The traditional three-tier architecture led to bottlenecks in bandwidth as well as variability in the server-to-server latency depending on the path the traffic takes
-	- ![[Pasted image 20240429171937.png]]
+	- ![[Assets/Pasted image 20240429171937.png]]
 	- There are some rules about Spine-Leaf architecture:
 		- Every Leaf switch is connected to every Spine switch
 		- Every Spine switch is connected to every Leaf switch
@@ -70,4 +70,4 @@ tags:
 		- Firewall
 		- Wireless Access Point
 		- Modem (sometimes a separate device instead)
-	- ![[Pasted image 20240429172604.png]]
+	- ![[Assets/Pasted image 20240429172604.png]]

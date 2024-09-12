@@ -3,7 +3,7 @@ tags:
   - work
   - ccna
 ---
-![[Pasted image 20240205215303.png]]
+![[Assets/Pasted image 20240205215303.png]]
 - ## IPv4 Header Parts
 	- ### Version
 		- Length - 4 bits
@@ -79,4 +79,4 @@ tags:
 		- Length - 0–320 bits
 		- Rarely used
 		- If the IHL field is greater than 5, it means that options are present
-		- ![[Pasted image 20240205221503.png]]
+		- ![[Assets/Pasted image 20240205221503.png]]

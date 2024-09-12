@@ -3,7 +3,7 @@ tags:
   - work
   - ccna
 ---
-![[Pasted image 20240210160014.png]]
+![[Assets/Pasted image 20240210160014.png]]
 - In order to find the next subnet address in a subnet, take the first one, and look at the last bit in the network portion. Add that many to the end of the address to get the next subnet.
 
 - The process of subnetting Class A, B, and C networks is exactly the same

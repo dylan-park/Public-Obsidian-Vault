@@ -21,14 +21,14 @@ tags:
 		- Must register to use them. Because they are public addresses, it is expected that they are globally unique
 		- Originally defined as the 2000::/3 block (2000:\: to 3FFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF)
 		- Now defined as all addresses which aren't reserved for other purposes
-		- ![[Pasted image 20240319185123.png]]
+		- ![[Assets/Pasted image 20240319185123.png]]
 	- ### Unique Local Address
 		- Unique local IPv6 addresses are *private* addresses which cannot be used over the internet
 		- You do not need to register to use them. They can be used freely within internal networks, and don't need to be globally unique, and they can't be routed over the internet
 			- The global ID should be unique, so that addresses don't overlap when companies merge
 		- Uses address block FC00::/7(FC00:\: to FDFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF)
 			- However, a later update requires the 8th bit to be set to 1, so the first two digits must be FD
-		- ![[Pasted image 20240321171734.png]]
+		- ![[Assets/Pasted image 20240321171734.png]]
 	- ### Link Local Address
 		- Link-local IPv6 addresses are automatically generated on IPv6-enabled interfaces
 		- `ipv6 enable` command on an interface enables IPv6 on an interface
@@ -61,7 +61,7 @@ tags:
 	- ### Anycast Address
 		- Anycast is a new feature op IPv6
 		- Anycast is 'one-to-one-of-many'
-		- ![[Pasted image 20240321173759.png]]
+		- ![[Assets/Pasted image 20240321173759.png]]
 		- Multiple routers are configured with the same IPv6 address
 			- They use a routing protocol to advertise the address
 			- When hosts send packets to that destination address, routers will forward it to the nearest router configured with that IP address (based on routing metric)

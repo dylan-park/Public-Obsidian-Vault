@@ -37,4 +37,4 @@ tags:
 	1. Assign the largest subnet at the start of the address space
 	2. Assign the second-largest subnet after it.
 	3. Repeat the process until all subnets have been assigned (from largest to smallest)
-![[Pasted image 20240212145502.png]]
+![[Assets/Pasted image 20240212145502.png]]

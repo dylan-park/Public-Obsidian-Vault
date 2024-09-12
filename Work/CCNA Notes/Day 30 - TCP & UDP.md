@@ -32,7 +32,7 @@ tags:
 		- Sequence numbers in the TCP header allow destination hosts to put segments in the correct order even if they arrive out of order
 	- TCP provides flow control
 		- The destination host can tell the source host to increase/decrease the rate that data is sent
-	- ![[Pasted image 20240312184023.png]]
+	- ![[Assets/Pasted image 20240312184023.png]]
 	- ### TCP Three-Way Handshake (Establishing Connections): ^ccna-three-way-handshake
 		- Client → Host: SYN flag
 		- Client ← Host: SYN flag, ACK flag
@@ -61,7 +61,7 @@ tags:
 		- If segments arrive out of order, UDP has no mechanism to put them back in order
 	- UDP **does not** provide flow control
 		- UDP has no mechanism like TCP's window size to control the flow of data
-	- ![[Pasted image 20240312185218.png]]
+	- ![[Assets/Pasted image 20240312185218.png]]
 - ## Comparing TCP & UDP:
 	- TCP provides more features than UDP, but at the cost of additional **overhead**
 	- For applications that require reliable communications (like download a file), TCP is preferred

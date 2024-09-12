@@ -15,7 +15,7 @@ tags:
 		- Only when there is a dot1q tag
 	- The **DSCP** (Differentiated Services Code Point) field of the IP header can also be used to identify high/low priority traffic
 - ## PCP/CoS
-	- ![[Pasted image 20240422164200.png]]
+	- ![[Assets/Pasted image 20240422164200.png]]
 	- PCP is also known as Cos (Class of Service), its use is defined by IEEE 802.1p
 	- 3 bits = 8 possible values (2^3 = 8)
 	- 'Best Effort' delivery means there is no guarantee that data is delivered, or that it meets and QoS standard, This is regular traffic, not high priority
@@ -37,7 +37,7 @@ tags:
 | 6         | Internetwork Control  |
 | 7         | Network Control       |
 - ## IP ToS Byte
-	- ![[Pasted image 20240422165844.png]]
+	- ![[Assets/Pasted image 20240422165844.png]]
 	- Old ToS Byte = 3 bits, 8 values (0-7)
 	- Current ToS Byte = 6 bits, 64 values (0-63)
 	- ### IP Precedence
@@ -66,11 +66,11 @@ tags:
 			- **AF** (Assured Forwarding) defines four traffic classes, all packets in a class have the same priority
 			- Within each class, there are three levels of *drop precedence*
 				- Higher drop precedence = more likely to drop the packet during congestion
-				- ![[Pasted image 20240422172933.png]]
+				- ![[Assets/Pasted image 20240422172933.png]]
 	- ### CS
 		- **CS** (Class Selector) defines eight DSCP values for backward compatibility with IPP
 		- The three bits that were added for DSCP are set to 0, and the original IPP bits are used to make 8 values
-		- ![[Pasted image 20240422173251.png]]
+		- ![[Assets/Pasted image 20240422173251.png]]
 	- ### RFC 4954
 		- RFC 4954 was developed with the help of Cisco to bring all of these vales together and standardize their use
 		- The RFC offers many specific recommendations, like:
@@ -95,7 +95,7 @@ tags:
 		- The device can match traffic based on various factors (for example the DSCP marking in the IP header) and then place it in the appropriate queue
 	- However, the device is only able to forward one frame out of an interface at once, so a *scheduler* is used to device which queue traffic is forward from next
 		- *Prioritization* allows the scheduler to give certain queues more priority than others
-	- ![[Pasted image 20240422174151.png]]
+	- ![[Assets/Pasted image 20240422174151.png]]
 	- A common scheduling method is *weighted round-robin*
 		- **Round-Robin** = Packets are taken from each queue order, cyclically
 		- **Weighted** = More data is taken from high priority queues each time the scheduler reaches that queue

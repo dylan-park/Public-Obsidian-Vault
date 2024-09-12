@@ -24,12 +24,12 @@ tags:
 - User EXEC mode (user mode) = '>' in CLI
 	- Very limited
 	- Users can look at some things, but can't make any changes to the configuration
-![[Pasted image 20240129183441.png]]
+![[Assets/Pasted image 20240129183441.png]]
 - Enter 'enable' to enter Privileged EXEC mode
 - Privileged EXEC mode = '#' in CLI
 	- Provides complete access to view the device's configuration, restart the device, etc.
 	- Cannot change the configuration, but can change the time on the device, save the configuration file, etc.
-![[Pasted image 20240129183728.png]]
+![[Assets/Pasted image 20240129183728.png]]
 - Use a question make (?) to view the commands available to you
 - Enter `configure terminal` to enter Global Configuration mode
 - Global Configuration mode = '(config)#' in CLI
@@ -53,8 +53,8 @@ tags:
 		- The enable secret will not be effected
 - `do` is a shortcut to run User EXEC mode commands in
 - entering `no` can cancel a command
-![[Pasted image 20240129190510.png]]
-![[Pasted image 20240129190527.png]]
-![[Pasted image 20240129190546.png]]
-![[Pasted image 20240129190611.png]]
-![[Pasted image 20240129190622.png]]
+![[Assets/Pasted image 20240129190510.png]]
+![[Assets/Pasted image 20240129190527.png]]
+![[Assets/Pasted image 20240129190546.png]]
+![[Assets/Pasted image 20240129190611.png]]
+![[Assets/Pasted image 20240129190622.png]]

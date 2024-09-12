@@ -27,7 +27,7 @@ tags:
 			- WEP keys can be 40 bits or 104 bits in length
 				- They are combined with a 24 bit 'IV' (Initialization Vector) to bring the total length to 64 bits or 128 bits
 			- WEP encryption is **not secure** and can easily be cracked
-			- ![[Pasted image 20240508142703.png]]
+			- ![[Assets/Pasted image 20240508142703.png]]
 		- #### EAP (Extensible Authentication Protocol)
 			- EAP is an authentication framework
 			- It defines a standard set of authentication functions that are used by the various EAP methods
@@ -37,7 +37,7 @@ tags:
 				- **Supplicant**: The device that wants to connect to the network
 				- **Authenticator**: The device that provides access to the network
 				- **Authentication Server (AS)**: The device that receives client credentials and permits/denies access
-			- ![[Pasted image 20240508143057.png]]
+			- ![[Assets/Pasted image 20240508143057.png]]
 		- #### LEAP (Lightweight EAP)
 			- LEAP was developed by Cisco as an improvement over WEP
 			- Clients must provide a username and password to authenticate
@@ -70,7 +70,7 @@ tags:
 	- ### Integrity
 		- Integrity ensures that a message is not modified by a third party. The message that is sent by the source host should be the same as the message that is received by the destination host
 		- A MIC (Message Integrity Check) is added to messages to help protect their integrity
-		- ![[Pasted image 20240508142006.png]]
+		- ![[Assets/Pasted image 20240508142006.png]]
 	- ### Encryption / Integrity Methods
 		- #### TKIP (Temporal Key Integrity Protocol)
 			- WEP was found to be vulnerable, but wireless hardware at the time was built to use WEP

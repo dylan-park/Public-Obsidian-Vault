@@ -44,9 +44,9 @@ tags:
 		- ARP is IPv4 uses broadcast messages
 	- Two message types are used:
 		- Neighbor Solicitation (NS) = ICMPv6 Type 135
-			- ![[Pasted image 20240328154523.png]]
+			- ![[Assets/Pasted image 20240328154523.png]]
 		- Neighbor Advertisement (NA) = ICMPv6 Type 136
-			- ![[Pasted image 20240328154607.png]]
+			- ![[Assets/Pasted image 20240328154607.png]]
 	- `show ipv6 neighbor` command shows IPv6 neighbor table
 	- Another function of NDP allows hosts to automatically discover routers on the local network
 		- Two messages are used for this process:

@@ -26,16 +26,16 @@ tags:
 	- 10BASE-T & 100BASE-T = 2 pairs (4 wires)
 	- 1000BASE-T & 10GBASE-T = 4 pairs (8 wires)
 	- Full-Duplex - Separate wires are used for transmitting and receiving, to avoid collisions.
-	![[Pasted image 20240125161144.png]]
-	![[Pasted image 20240125161835.png]]
+	![[Assets/Pasted image 20240125161144.png]]
+	![[Assets/Pasted image 20240125161835.png]]
 		- Each pair in 1000BASE-T and 10GBASE-T are bidirectional, and can be used to transmit and receive.
 	- Routers/PCs transmit data on pins 1 and 2, and receive data on 3 and 6
 	- Switches transmit data on pins 3 and 6, and receive data on 1 and 2
 	- Straight-Through cable - Pin pairs are matched on both sides of the cable
 	- Crossover cable - Pin pairs are reversed on the other side of the cable
-	![[Pasted image 20240125161556.png]]
+	![[Assets/Pasted image 20240125161556.png]]
 - Auto MDI-X - Allows devices to automatically detect which pins their partner is using to transmit, and adjusts what pins they then use to receive
-![[Pasted image 20240125162011.png]]![[Pasted image 20240125162250.png]]
+![[Assets/Pasted image 20240125162011.png]]![[Assets/Pasted image 20240125162250.png]]
 - ### Multimode Fiber Cable -
 	- Core diameter is wider than single-mode fiber
 	- Allows multiple angle (modes) of light waves to enter the core.

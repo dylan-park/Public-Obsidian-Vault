@@ -6,7 +6,7 @@ tags:
 - **IANA (Internet Assigned Numbers Authority)** - assigns IPv4 addresses/networks to companies based on their size
 	- For example, a very large company might receive a class A or class B network, while a small company might receive a class C network
 	- This system lead to many wasted IP addresses
-	![[Pasted image 20240209145738.png]]
+	![[Assets/Pasted image 20240209145738.png]]
 - The IETF (Internet Engineering Task Force) introduced **CIDR** in 1993 to replace t he 'classful' addressing system
 - With CIDR, the class/netmask requirements were removed, allowing for larger networks to be split into smaller ones, allowing greater efficiency.
 	- These smaller networks are called subnetworks, or **subnets**

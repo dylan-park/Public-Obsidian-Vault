@@ -30,11 +30,11 @@ tags:
 	- Typically, IPv6 subnets use a /64 prefix length
 	- That means an enterprise has 16 bits to use to make subnets
 	- The remaining 64 bits can be used for hosts
-	- ![[Pasted image 20240319185123.png]]
+	- ![[Assets/Pasted image 20240319185123.png]]
 		- To find the IPv6 prefix length, make the second half all 0s
 			- 2001:0DB8:8B00:0001:0000:0000:0000:0001/64 → 2001:DB8:8B00:1::/64
-			- ![[Pasted image 20240319185355.png]]
-			- ![[Pasted image 20240319185438.png]]
+			- ![[Assets/Pasted image 20240319185355.png]]
+			- ![[Assets/Pasted image 20240319185438.png]]
 - ## Configuring IPv6 Addresses
 	- `ipv6 unicast-routing` command allows the router to perform IPv6 routing
 		- Router will not use IPv6 addresses otherwise
