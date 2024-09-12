@@ -1,0 +1,27 @@
+---
+tags:
+  - devops
+  - ccna
+---
+- ## Resequencing ACLs
+	- There is a resequencing function that helps edit ACLs
+	- The `ip access-list resequence *acl-id* *starting-seq-num* *increment*` command resets the sequence numbers and sets the increments beyond that
+- ## Extended ACLs
+	- Extended ACLs function mostly the same as standard ACLs
+	- They can be numbered or named, just like standard ACLs
+		- Numbered ACLs use the following ranges: 100-199, 2000-2699
+	- They are processed from top to bottom, just like standard ACLs
+		- However, they can match traffic based on more parameters, so they are more precise (and more complex) than standard ACLs
+	- `access-list *number* *permit | deny* *protocol* *src-ip* *dest-ip*` command creates an ACL with protocol, source address, and destination address
+	- `ip access-list extended *name | number*` command, and then `*seq-number* *permit | deny* *protocol *source-ip *dest-ip*` command enters ACL mode and creates a new rule
+		- In extended ACLs, to specify a /32 source or destination, you have to use the host option or specify the wildcard mask. You can't just write the address without either of those
+	- ### Matching TCP/UDP Port Numbers
+		- When matching TCP/UDP, you can optionally specify the source and/or destination port numbers to match
+			- eq = equal
+			- gt = greater than
+			- lt = less than
+			- neq = not equal
+			- range = from port to port
+		- If you specify the protocol, source IP, source port, destination IP, destination port, etc., a packet must match ALL of those values to match the ACL entry. Even if it matches all except one of the parameters, the packet won't match that entry of the ACL
+	- Extended ACLs should be applied as close to the <u>source</u> as possible, to limit how far the packets travel in the network before being denied.
+		- Standard ACLs are less specific, so if they are applied close to the source there is a risk of blocking more traffic than intended

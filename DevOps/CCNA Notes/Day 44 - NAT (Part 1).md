@@ -1,0 +1,35 @@
+---
+tags:
+  - devops
+  - ccna
+---
+- ## Private IPv4 Addresses
+	- RFC 1918 specifies the following IPv4 address ranges as private:
+		- 10.0.0.0/8 (10.0.0.0 to 10.255.255.255) - Class A
+		- 172.16.0.0/12 (172.16.0.0 to 172.31.255.255) - Class B
+		- 192.168.0.0/16 (192.168.0.0 to 192.168.255.255) - Class C
+	- You are free to use these addresses in your networks, they don't have to be globally unique
+	- Private IP addresses cannot be used over the internet
+- ## Intro to NAT
+	- Network Address Translation (NAT) is used to modify the source and/or destination IP addresses of packets
+	- The most common reason to use NAT is to allow hosts with private IP addresses to communicate with other hosts over the Internet
+	- Source NAT = Modifying the source IP of a packet
+- ## Static NAT
+	- **Static NAT** involves statically configuring one-to-one mappings of private IP addresses to public IP addresses
+	- When traffic from the internal host is sent to the outside network, the router will translate the source address
+	- However, this one-to-one mapping also allows external hosts to access the internal host via the inside global address
+	- An *inside* local IP address is mapped to an *inside* global IP address
+		- **Inside Local** = The IP addresses of the *inside* host, from the perspective of the local network
+			- The IP address actually configured on the inside host, usually a private address
+		- **Inside Global** = The IP address of the *inside* host, from the perspective of *outside* hosts
+			- The IP address of the inside host <u>after NAT</u>, usually a public address
+	- Outside Local = The IP address of the *outside* host, from the perspective of the local network
+	- Outside Global = The IP address of the *outside* host, from the perspective of the outside network
+	- Static NAT allows devices with private IP addresses to communicate over the Internet, however, because it requires a one-to-one IP address mapping, it doesn't help preserve IP addresses
+	- ### Configuration
+		- `ip nat inside` command from interface config defines the 'inside' interface(s) connected to the internal network
+		- `ip nat outside` command from interface config defines the 'outside' interface(s) connected to the external network
+		- `ip nat inside source static *inside-local-ip* *inside-global-ip*` command configures the one-to-one IP address mapping
+		- `show ip nat translations` command shows NAT translation information
+		- `clear ip nat translation *` command clears all dynamic NAT translations in the translation table
+		- `show ip nat statistics` command shows NAT statistics on the device

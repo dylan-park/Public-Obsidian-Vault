@@ -1,0 +1,45 @@
+---
+tags:
+  - devops
+  - ccna
+---
+- ## The Purpose of DHCP
+	- DHCP is used to allow hosts to automatically/dynamically learn various aspects of their network configuration, such as IP address, subnet mask, default gateway, DNS server, etc., without manual/static configuration
+	- It is an essential part of modern networks
+	- Typically used for 'client devices' such as workstations (PCs), phones, etc.
+	- Devices such as routers, servers, etc., are usually manually configured
+	- In small networks (such as home networks) the router typically acts as the DHCP server for hosts in the LAN
+	- In larger networks, the DHCP server is usually a Windows/Linux server
+	- DHCP servers 'lease' IP addresses to clients
+		- These leases are usually not permanent, and the client must give up the address at the end of the lease
+	- DHCP servers use UDP port 67
+	- DHCP clients use UDP port 68
+	- Message Order (DORA):
+		- (Client) DHCP Discover, Broadcast
+		- (Server) DHCP Offer, Broadcast or Unicast
+		- (Client) DHCP Request, Broadcast
+		- (Server) DHCP Ack, Broadcast or Unicast
+- ## DHCP Release
+	- `ipconfig /release` command on Windows releases the DHCP learned addresses on a PC
+	- `ipconfig /renew` command on Windows tells the PC to contact the DHCP server for a new IP
+- ## DHCP Relay
+	- Some network engineers might choose to configure each router to act as the DHCP server for its connected LANs
+	- However, large enterprises often choose to use a centralized DHCP server
+	- If the server is centralized, it won't receive the DHCP clients' broadcast DHCP messages (broadcast messages don't leave the local subnet)
+	- To fix this, you can configure a router to act as a **DHCP relay agent**
+	- The router will forward the clients' broadcast DHCP messages to the remote DHCP server as unicast messages
+- ## DHCP Configuration
+	- ### Server ^ccna-dhcp-server-config
+		- `ip dhcp excluded-address *start-of-ip-range* *end-of-ip-range*` command specifies a range of addresses that won't be given to DHCP clients
+		- `ip dhcp pool *pool-name` command creates a DHCP pool
+		- `network *network-address* *network-mask | prefix-length` command specifies the subnet of addresses to be assigned to clients (except excluded addresses)
+		- `dns-server *ip-address*` command specifies the DNS server that DHCP clients should use
+		- `domain-name *domain-name*` command specifies the domain name of the network
+		- `default-router *ip-address*` command specifies the default gateway
+		- `lease *days* *hours* *minutes*` OR `lease infinite` commands specify the lease time
+		- `show ip dhcp binding` command shows all addresses that DHCP has assigned so far
+	- ### Relay Agent
+		- `ip helper-address *ip-address*` command (in interface mode, on the interface connected to the client devices) configures the IP address of the DHCP server the requests need to be forwarded to
+		- `do show ip interface *interface*` command will show the helper address on an interface
+	- ### Client
+		- `ip address dhcp` command (in interface mode) tells the router to use DHCP to learn its IP address

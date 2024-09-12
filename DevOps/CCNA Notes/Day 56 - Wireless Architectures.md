@@ -1,0 +1,139 @@
+---
+tags:
+  - devops
+  - ccna
+---
+- ## 802.11 Frame Format
+	- ![[Assets/Pasted image 20240507134548.png]]
+	- 802.11 frames have a different format than [[Day 5 & 6 - Ethernet LAN Switching#^ccna-ethernet-header|802.3 Ethernet frames]]
+	- Depending on the 802.11 version and the message type, some of the fields might not be present in the frame
+		- For example, not all messages use all 4 address fields
+	- ### Frame Control
+		- Provides information such as the message type and subtype
+	- ### Duration/ID
+		- Depending on the message type, it can indicate
+			- The time (in microseconds) the channel will be dedicated for transmission of the frame
+			- An identifier for the association (connection)
+		- Similar to the Ethernet length/type field
+	- ### Addresses
+		- Up to four addresses can be present in an 802.11 frame, which addresses are present, and their order, depends on the message type
+			- **Destination Address (DA)**: Final recipient of the frame
+			- **Source Address (SA)**: Original sender of the frame
+			- **Receiver Address (RA)**: Immediate recipient of the frame
+			- **Transmitter Address (TA)**: Immediate sender of the frame
+	- ### Sequence Control
+		- Used to reassemble fragments and eliminate duplicate frames
+	- ### QoS Control
+		- Used in QoS to prioritize certain traffic
+	- ### HT (High Throughput) Control
+		- Added in 802.11N to enable High Throughput operations
+			- 802.11n is also known as 'High Throughput' (HT) Wi-Fi
+			- 802.11ac is also known as 'Very High Throughput' (VHT) Wi-Fi
+	- ### FCS (Frame Check Sequence)
+		- Same as in an Ethernet frame, used to check for errors
+- ## 802.11 Association Process
+	- Access Points bridge traffic between wireless stations and other devices
+	- For a station to send traffic through the AP, it must be associated with the AP
+	- There are three 802.11 connection states:
+		- Not authenticated, not associated
+		- Authenticated, not associated
+		- Authenticated and associated
+	- The station must be authenticated and associated with the AP to send traffic through it
+	- There are two ways a station can scan for a BSS:
+		- **Active Scanning**: The station sends probe requests and listens for a probe scanning response from an AP
+		- **Passive Scanning**: The station listens for **beacon** messages from an AP
+			- Beacon messages are sent periodically by APs to advertise the BSS
+	- ![[Assets/Pasted image 20240507135951.png]]
+- ## 802.11 Message Types
+	- ### Management
+		- Used to manage the BBS
+		- Examples:
+			- Beacon
+			- Probe request, probe response
+			- Authentication
+			- Association request, association response
+	- ### Control
+		- Used to control access to the medium (radio frequency). Assists with delivery of management and data frames
+		- Examples:
+			- RTS (Request to send)
+			- CTS (Clear to send)
+			- ACK
+	- ### Data
+		- Used to send actual data packets
+- ## Wireless AP Deployment Methods
+	- ### Autonomous APs
+		- **Autonomous APs** are self-contained systems that don't rely on a WLC
+		- They are configured individually
+			- Can be configured by console cable (CLI), [[Day 42 - SSH#^ccna-telnet|telnet]]/[[Day 42 - SSH#^ccna-ssh|SSH]] (CLI), or HTTP/HTTPS web connection (GUI)
+			- An IP address for remote management should be configured
+			- The RF parameters must be manually configured (transmit power, channel, etc.)
+			- Security policies are handled individually by each AP
+			- QoS rules etc. are configured individually on each AP
+		- There is no central monitoring or management of APs
+		- Autonomous APs connect to the wired network with a trunk link
+		- Data traffic from wireless clients have a very direct path to the wired network or to other wireless clients associated with the same AP
+		- Each VLAN has to stretch across the entire network. This is considered bad practice
+			- Large broadcast domains
+			- Spanning tree will disable links
+			- Adding/deleting VLANs is very labor-intensive
+		- Autonomous APs can be used in small networks, but they are not viable in medium to large networks
+			- Large networks can have thousands of APs
+		- Autonomous APs can also function in : Repeater, Outdoor Bridge, and Workgroup Bridge modes
+	- ### Lightweight APs
+		- The functions of an AP can be split between the AP and a **Wireless LAN Controller (WLC)**
+		- **Lightweight APs** handle 'real-time' operations like transmitting/receiving RF traffic, encryption/decryption of traffic, sending out beacons/probes, etc.
+		- Other functions are carried out by a WLC, for example RF management, security/QoS management, client authentication, client association/roaming management, etc.
+		- This is called **split-MAC architecture**
+		- The WLC is also used to centrally configure the lightweight APs
+		- The WLC can be located in the same subnet/VLAN as the lightweight APs it manages, or in a different subnet/VLAN
+		- The WLC and lightweight APs authenticate each other using digital certificates installed on each device (X.509 standard certificates)
+			- This ensures that only authorized APs can join the network
+		- The WLC and lightweight APs use a protocol called CAPWAP (Control And Provisioning Of Wireless Access Points) to communicate
+		- Two tunnels are created between each AP and the WLC
+			- **Control Tunnel** (UDP port 5246): used to configure the APs and control/manage the operations. All traffic in this tunnel is encrypted by default
+			- **Data Tunnel** (UDP port 5247): All traffic from wireless clients is sent through this tunnel to the WLC, **It does not go directly to the wired network**. Traffic in this tunnel is not encrypted by default, but you can configure it to be encrypted with DTLS (Datagram Transport Layer Security)
+		- Because all traffic from wireless clients is tunneled to the WLC with CAPWAP, APs connect to switch access ports, not trunk ports
+		- There are some key benefits to split-MAC architecture:
+			- **Scalability**: With a WLC (or multiple in very large networks) it's much simpler to build and support a network with thousands of APs
+			- **Dynamic Channel Assignment**: The WLC can automatically select which channel each AP should use
+			- **Transmit Power Optimization**: The WLC can automatically set the appropriate transmit power for each AP
+			- **Self-Healing Wireless Coverage**: When an AP stops functioning, the WLC can increase the transmit power of nearby APs to avoid coverage holes
+			- **Seamless Roaming**: Clients can roam between APs with no noticeable delay
+			- **Client Load Balancing**: If a client is in range of two APs,  the WLC can associate the client with the least-used AP, to balance the load among APs
+			- **Security/QoS Management**: Central management of security and QoS policies ensures consistent across the network
+		- Lightweight APs can be configured to operate in various modes:
+			- **Local**: This is the default mode where the AP offers a BSS (or multiple BSSs) for clients to associate with
+			- **FlexConnect**: Like a lightweight AP in Local mode, it offers one or more BSSs for clients to associate with. However, FlexConnect allows the AP to locally switch traffic between the wired and wireless networks if the tunnels to the WLC go down
+			- **Sniffer**: The AP does not offer a BSS for clients. It is dedicated to capturing 802.11 frames and sending them to a device running software such as Wireshark
+			- **Monitor**: The AP does not offer a BSS for clients. It is dedicated to receiving 802.11 frames to detect rogue devices. If a client is found to be a rogue device, an AP can send de-authentication messages to disassociate the rogue device from the AP
+			- **Rogue Detector**: The AP does not even use its radio. It listens to traffic on the wired network only, but it receives a list of suspected rogue clients and AP MAC addresses from the WLC. By listening to ARP messages on the wired network and correlating it with the information it receives from the WLC, it can detect rogue devices
+			- **SE-Connect (Spectrum Expert Connect)**: The AP does not offer a BSS for clients. It is dedicated to RF spectrum analysis on all channels. It can send information to software such as Cisco Spectrum Expert on a PC to collect and analyze the data
+			- **Bridge/Mesh**: Like the autonomous APs *Outdoor Bridge*, the lightweight AP can be a dedicated bridge between sites, for example over long distances. A mesh can be made between the access points
+			- **Flex Plus Bridge**: Adds FlexConnect functionality to the Bridge/Mesh mode. Allows wireless access points to locally forward traffic even if connectivity to the WLC is lost
+	- ### Cloud-Based APs
+		- **Cloud-Based AP** architecture is in between autonomous AP and split-MAC architecture
+			- Autonomous APs that are centrally managed in the cloud
+		- Cisco Meraki is a popular cloud-based Wi-Fi solution
+		- The Meraki dashboard can be used to configure APs, monitor the network, generate performance reports, etc.
+			- Meraki also tells each AP which channel to use, what transmit power, etc.
+		- However, data traffic is not sent to the cloud. It is sent directly to the wired network like when using autonomous APs
+			- Only management/control traffic is sent to the cloud
+- ## Wireless LAN Controller (WLC) Deployments
+	- In a split-MAC architecture, there are four main WLC deployment models:
+		- ### Unified
+			- The WLC is a hardware appliance in a central location of the network
+			- A unified WLC can support up to about 6000 APs
+				- If more than 6000 APs are needed, additional WLCs can be added to the network
+		- ### Cloud-Based
+			- The WLC is a VM running on a server, usually in a private cloud in a data center
+				- Not the same as cloud-based AP architecture
+			- Cloud-Based WLCs can typically support up to about 3000 APs
+				- If more than 3000 APs are needed, more WLC VMs can be deployed
+		- ### Embedded
+			- The WLC is integrated within a switch
+			- An embedded WLC can support up to about 200 APs
+				- If more than 200 APs are needed, more switches with embedded WLCs can be added
+		- ### Mobility Express
+			- The WLC is integrated within an AP
+			- A mobility Express WLC can support up to about 100 APs
+				- If more than 100 APs are needed, more APs with embedded Mobility Express WLCs can be added

@@ -1,0 +1,113 @@
+---
+tags:
+  - devops
+  - ccna
+---
+- ## RIP:
+	- Routing Information Protocol (Industry standard)
+	- Distance vector IGP (uses routing-by-rumor logic to learn/share routes)
+	- Uses hop count as its metric
+		- One router = one hop (bandwidth is irrelevant)
+	- Maximum hop count is 15
+		- Anything more than that is considered unreachable
+	- ### Uses two message types:
+		- #### Request:
+			- To ask RIP-enabled neighbor routers to send their r outing table
+		- #### Response:
+			- To send the local router's routing table to neighboring routers
+	- By default, RIP-enabled routers will share their routing table every 30 seconds
+	- ### Versions:
+		- #### RIPv1:
+			- Only advertises *classful* addresses (Class A, Class B, Class C)
+			- Doesn't support VLSM, CIDR
+			- Doesn't include the subnet mask information in advertisements (Response messages)
+				- 10.1.1.0/24 will become 10.0.0.0 (Class A address, so assumed to be /8)
+				- 172.16.192.0/18 will become 172.16.0.0 (Class B address, so assumed to be /16)
+				- 192.168.1.4/30 will become 192.168.1.0 (Class C address, so assumed to be /24)
+			- Messages are broadcast to 255.255.255.255
+		- #### RIPv2:
+			- Supports VLSM, CIDR
+			- Includes subnet mask info in advertisements
+			- Messages are multicast to 224.0.0.9
+		- #### RIPng
+	- ### Commands:
+		- `router rip` command enters RIP config mode
+			- `version *version*` command sets RIP version (always use 2)
+			- `no auto-summary` command turns off auto-summary (stops automatically converting the networks the router advertises to classful networks, on by default)
+			- `network *ip-address*` command tells the router to:
+				- Look for interfaces with an ip address that is in the specified range
+				- Activate RIP on the interfaces that fall in the range
+				- Form adjacencies with connected RIP neighbors
+				- Advertise **the network prefix of the interface** (NOT the prefix in the **network** command)
+			- The network command is classful
+			- `passive-interface *interface*` command configures an interface as a passive interface
+				- Tells the router to stop sending RIP advertisements out of the specified interface
+				- You should always use this command on interfaces which don't have any RIP neighbors
+			- `default-information originate` command advertises the default route via RIP
+			- `maximum-paths *number*` command sets maximum RIP paths
+			- `distance *number*` command sets administrative distance
+		- `show ip protocols` command shows routing protocol info
+- ## EIGRP:
+	- Enhanced Interior Gateway Routing Protocol
+	- Was Cisco proprietary, but Cisco has not published it openly so other vendors can implement it on their equipment
+	- Considered an 'advanced' / 'hybrid' distance vector routing protocol
+	- Much faster than RIP in reacting to changes in the network
+	- Does not have the 15 'hop-count' limit of RIP
+	- Sends messages using multicast address 224.0.0.10
+	- Is the only IGP that can perform **unequal**-cost load-balancing
+		- By default it performs ECMP load-balancing over 4 paths like RIP
+	- ### Commands:
+		- `router eigrp *as-number*` command enters EIRGP config mode (AS number must match between routers, or they will not form an adjacency and share route information)
+			- `no auto-summary` command turns off auto-summary (stops automatically converting the networks the router advertises to classful networks, on by default)
+			- `passive-interface *interface*` command configures an interface as a passive interface
+			- `network *ip-address*` command tells the router to:
+				- Look for interfaces with an ip address that is in the specified range
+				- Activate EIGRP on the interfaces that fall in the range
+				- Form adjacencies with connected EIGRP neighbors
+				- Advertise **the network prefix of the interface** (NOT the prefix in the **network** command)
+				- Uses a wildcard mask instead of a regular subnet mask
+			- `variance *variance-multiplier*` command sets the metric variance multiplier
+				- **Variance 1** - only ECMP load-balancing will be performed (default)
+				- **Variance 2** - **Feasible successor** routes with an FD up to 2x the **successor** route's FD can be used to load-balance
+				- **Variance n** - **Feasible successor** routes with an FD up to nx the **successor** route's FD can be used to load-balance
+				- EIGRP will only perform unequal-cost load-balancing over **feasible successor** routes
+					- If a router doesn't meet the feasibility requirement, it will NEVER be selected for load-balancing, regardless of the **variance**
+		- `show ip protocols` command shows routing protocol info
+		- `show ip eigrp neighbors` command shows EIGRP neighbors
+		- `show ip eigrp topology` command shows EIGRP topology information
+	- ## EIGRP Router ID Priority:
+		1. Manual Configuration
+		2. Highest Loopback Interface Address
+		3. Highest Physical Interface Address
+	- ## EIGRP Metric:
+		- By default, EIGRP uses **bandwidth** and **delay** to calculate metric
+			- (\[K1 * bandwidth + (K2 * bandwidth) / (256 - load) + K3 * delay\] * \[K5 / (reliability + K4)\]) * 256*
+			- Default 'K' values are:
+				- K1 = 1
+				- K2 = 0
+				- K3 = 1
+				- K4 = 0
+				- K5 = 0
+			- You can simplify the formula like this: metric = bandwidth + delay
+		- Bandwidth of the **slowest link** + the delay of **all links**
+	- **Feasible Distance** - This router's metric value to the route's destination
+	- **Reported Distance (Advertised Distance)** - The neighbor's metric value to the route's destination
+	- **Successor** - The route with the lowest metric to the destination (the best route)
+	- **Feasible Successor** - An alternate route to the destination (not the best route) <u>which meets the feasibility condition</u>
+		- A route is considered a **feasible successor** if its **reported distance** is lower than the **successor** route's **feasible distance**
+- ## Wildcard Mask:
+	- Basically an 'inverted' subnet mask
+	- All 1s in the subnet mask are 0 in the equivalent wildcard mask, and vise versa.
+	- '0' in the wildcard mask = must match
+	- '1' in the wildcard mask = don't have to match
+		- 11111111.11111111.00000000.00000000
+			- ↓ 255.255.0.0 ↓
+		- 00000000.00000000.11111111.11111111
+			- 0.0.255.255
+			  
+		- 11111111.11111111.11111111.11110000
+			- ↓ 255.255.255.240 ↓
+		- 00000000.00000000.00000000.00001111
+			- 0.0.0.15
+			  
+	- A shortcut is to subtract each octet of the subnet mask from 255

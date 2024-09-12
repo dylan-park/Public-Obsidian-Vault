@@ -1,0 +1,82 @@
+---
+tags:
+  - devops
+  - ccna
+---
+![[Assets/Pasted image 20240205215303.png]]
+- ## IPv4 Header Parts
+	- ### Version
+		- Length - 4 bits
+		- Identifies the version of IP used
+			- IPv4 = 4 (0100)
+			- IPv6 = 6 (0110)
+	- ### IHL (Internet Header Length)
+		- Length - 4 bits
+		- The final field of the IPv4 header (Options) is variable in length, so this field is necessary to indicate the total length of the header
+		- Identifies the length of the header in 4-byte increments
+			- Value of 5 = 5x4-bytes = 20 bytes
+			- Minimum value is 5
+			- Max value is 15 = 60 bytes
+			- MINIMUM IPv4 HEADER LENGTH = 20 BYTES
+			- MAXIMUM IPv4 HEADER LENGTH = 60 BYTES
+	- ### DSCP (Differentiated Services Code Point)
+		- Length - 6 bits
+		- Used for quality of service
+		- Used to prioritize delay-sensitive data (streaming voice, video, etc)
+	- ### ECN (Explicit Congestion Notification)
+		- Length - 2 bits
+		- Provides end-to-end notification of network congestion without dropping packets
+		- Optional feature that requires both endpoints and the underlying network infrastructure to support it
+	- ### Total Length
+		- Length - 16 bits
+		- Indicates the total length of the packet (L3 header + L4 segment)
+		- Measured in bytes
+		- Minimum value of 20 (=IPv4 header with no encapsulated data)
+		- Maximum value of 65535 (maximum 16-bit value)
+	- ### Identification
+		- Length - 16 bits
+		- If a packet is fragmented due to being too large, this field is used to identify which packet the fragment belongs to.
+		- All fragments of the same packet will have their own IPv4 header with the same value in this field
+		- Packets are fragmented if larger than the MTU (Maximum Transmission Unit)
+			- The MTU is usually 1500 bytes
+		- Fragments are reassembled by the receiving host
+	- ### Flags
+		- Length - 3 bits
+		- Used to control/identify fragments
+			- Bit 0: Reserved, always set to 0
+			- Bit 1: Don't Fragment (DF bit), used to indicate a packet that should not be fragmented
+			- Bit 2: More Fragments (MF bit), set to 1 if there are more fragments in the packet, set to 0 for the last fragment
+	- ### Fragment Offset
+		- Length - 13 bits
+		- Used to indicate the position of the fragment within the original, unfragmented IP packet
+		- Allows fragmented packets to be reassembled even if the fragments arrive out of order
+	- ### Time To Live
+		- Length - 8 bits
+		- A router will drop a packet with a TTL of 0
+		- Used to prevent infinite loops
+		- Originally designed to indicate a packet's max lifetime in seconds
+		- In practice, indicates a 'hop count': each time the packet arrives at a router, the router decreases the TTL by 1.
+	- ### Protocol
+		- Length - 8 bits
+		- Indicates the protocol of the encapsulated L4PDU
+			- 6: [[Day 30 - TCP & UDP#^ccna-tcp|TCP]]
+			- 17: [[Day 30 - TCP & UDP#^ccna-udp|UDP]]
+			- 1: ICMP (Ping)
+			- 89: [[Day 26 - OSPF Part 1#^ccna-ospf|OSPF]] (dynamic routing protocol)
+	- ### Header Checksum
+		- Length - 16 bits
+		- Calculated checksum used to check for errors in the IPv4 header
+		- When a router receives a packet, it calculates the checksum of the header and compares it to the one in this field
+		- If they do not match, the router drops the packet
+		- Used to check for errors only in the IPv4 header
+			- IP relies on the encapsulated protocol to detect errors in the encapsulated data
+			- Both TCP and UDP have their own checksum fields to detect errors in the encapsulated data
+	- ### Source/Destination IP Address
+		- Length - 32 bits (each)
+		- Source IP Address = IPv4 address of the sender of the packet
+		- Destination IP Address = IPv4 address of the intended receiver of the packet
+	- ### Options
+		- Length - 0–320 bits
+		- Rarely used
+		- If the IHL field is greater than 5, it means that options are present
+		- ![[Assets/Pasted image 20240205221503.png]]
