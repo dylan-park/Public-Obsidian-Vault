@@ -7,9 +7,11 @@
 	- Shenron
 
 ---
-- 数
+- 数 - すう
 	- Number marker
-- 球
+- 球 - たま
 	- Ball/Sphere
-- 星
+- 星 - ほし
 	- Star
+- 願 - ねが
+	- Wish
