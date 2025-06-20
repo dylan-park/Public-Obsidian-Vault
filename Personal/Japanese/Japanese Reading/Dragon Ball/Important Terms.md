@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - japanese
+  - japanese-reading
+---
 ## Names
 - **孫悟空**
 	- Son Goku
