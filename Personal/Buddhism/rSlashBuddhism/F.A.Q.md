@@ -57,7 +57,7 @@ Related Links:
 * [Art Rosengarten's Buddhist Cheat Sheet](http://artrosengarten.files.wordpress.com/2008/09/arts-budhist-cheatsheet1.jpg)   
 ([Source](http://redd.it/16mani))
 
-* [Harold Ramis' "5 Minute Buddhist" Cheat Sheet](https://cdn.tricycle.org/wp-content/uploads/2014/03/Page-of-5-Minute-Buddhist.pdf)   
+* [Harold Ramis' "5 Minute Buddhist" Cheat Sheet](https://tricycle.org/wp-content/uploads/2014/03/Page-of-5-Minute-Buddhist-1.pdf)   
 ([Source](http://redd.it/20tezy))
 
 
