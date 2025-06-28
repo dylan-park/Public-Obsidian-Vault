@@ -42,9 +42,9 @@ Since Buddhism is primarily intended to be a hands-on practice and not a passive
 
 Related Links: 
 
-* [If you could describe Buddhism in a short paragraph, how would you describe it?](http://www.reddit.com/r/Buddhism/comments/ksaxm/if_you_could_describe_buddhism_in_a_short/)
+* [[Posts/if_you_could_describe_buddhism_in_a_short|If you could describe Buddhism in a short paragraph, how would you describe it?]]
 
-* [A Buddhist Elevator speech?](http://redd.it/1u2bii)
+* [[Posts/a_buddhist_elevator_speech|A Buddhist Elevator speech?]]
 
 #### Is there a cheat sheet on the concepts of Buddhism?
 
@@ -69,11 +69,11 @@ Related Links:
 
 * [What are some good beginners books on Zen Buddhism?](https://www.reddit.com/r/Buddhism/wiki/booklist#wiki_.7985_-_zen_.2F_ch.E1n_.2F_s.14Fn_.28seon.29_.2F_thi.1EC1n/)
 
-* [Buddhist fiction recommendations](http://www.reddit.com/r/Buddhism/comments/bsta6/ive_ready_plenty_of_buddhist_nonfiction_does/)
+* [[Posts/ive_ready_plenty_of_buddhist_nonfiction_does|Buddhist fiction recommendations]]
 
-* [Discussion about book recommendations that includes a few good general questions](http://www.reddit.com/r/Buddhism/comments/291jl1/buddhist_books_containing_sutrassuttas/)  
+* [[Posts/buddhist_books_containing_sutrassuttas|Discussion about book recommendations that includes a few good general questions]]
 
-* [r/meditation book recommendations](http://www.reddit.com/r/Meditation/comments/ld3vp/what_books_do_you_recommend_for_meditation_lets/)
+* [[Posts/what_books_do_you_recommend_for_meditation_lets|r/meditation book recommendations]]
 
 
 #### How do I become a Buddhist?
@@ -88,20 +88,20 @@ Taking refuge can be a private thing or a formal, public thing. It's up to you.
 
 #### Is there a Buddhist equivalent to the Bible?
 
-You can find canon sources here: [The Buddha's Teachings](http://www.reddit.com/r/Buddhism/comments/s4lhy/the_buddhas_teachings/)
+You can find canon sources here: [[Posts/the_buddhas_teachings|The Buddha's Teachings]]
 
 Related Links:
 
-* [The Bible is to Christians as ________ is to Buddhists?](http://www.reddit.com/r/Buddhism/comments/1jc7c1/the_bible_is_to_christians_as_is_to_buddhists_in/)
+* [[Posts/the_bible_is_to_christians_as_is_to_buddhists_in|The Bible is to Christians as ___ is to Buddhists?]]
 
 
 #### What are the different types/schools of Buddhism?
 
 Related Links:
 
-* [Can someone explain the different types of Buddhism?](https://www.reddit.com/r/Buddhism/comments/vz8u73/main_branches_of_buddhism_therav%C4%81da_and_mah%C4%81y%C4%81na/)
+* [[Posts/main_branches_of_buddhism_theravāda_and_mahāyāna|Can someone explain the different types of Buddhism?]]
 
-* [What are the various traditions of Buddhism?](https://www.reddit.com/r/Buddhism/comments/i912p9/comment/g1bz8p1/)
+* [[Posts/what_is_the_difference_between_tibetan_buddhism#^nyanasagara|What are the various traditions of Buddhism?]]
 
 #### What are the fundamental **similarities** between Theravada, Mahayana and Vajrayana? 
 
@@ -119,24 +119,24 @@ In 1967, the First Congress of the World Buddhist Sangha Council (WBSC) unanimou
 
 #### What type of Buddhism did you pick and why?
 
-*  [How did you choose you're school and sect of Buddhism? ](https://www.reddit.com/r/Buddhism/comments/6lfcpq/how_did_you_choose_youre_school_and_sect_of/)
-*  [How did you choose which school of Buddhism to follow? ](https://www.reddit.com/r/Buddhism/comments/3g7qsg/how_did_you_choose_which_school_of_buddhism_to/)
-*  [Buddhism sect choosing ](https://www.reddit.com/r/Buddhism/comments/4ufas4/buddhism_sect_choosing/)
-*  [How did you decide what school of Buddhism to follow? ](https://www.reddit.com/r/Buddhism/comments/2yw8ju/how_did_you_decide_what_school_of_buddhism_to/)
-*  [How did you find the right branch/school of Buddhism for you? ](https://www.reddit.com/r/Buddhism/comments/2wn14m/how_did_you_find_the_right_branchschool_of/)
-*  [How did you choose your tradition and school of buddhism, and how can I choose mine? ](https://www.reddit.com/r/Buddhism/comments/53a1o1/how_did_you_choose_your_tradition_and_school_of/)
-*  [How to pick a sect of Buddhism? ](https://www.reddit.com/r/Buddhism/comments/198w3x/how_to_pick_a_sect_of_buddhism/)
-*  [What Buddhist tradition do you follow currently, and why? ](https://www.reddit.com/r/Buddhism/comments/3guthe/what_buddhist_tradition_do_you_follow_currently/)
-* [Is Zen a type of Buddhism?](https://www.reddit.com/r/Buddhism/comments/8xntjd/why_is_zen_not_considered_as_buddhism_by_many/)
+* [[Posts/how_did_you_choose_youre_school_and_sect_of|How did you choose you're school and sect of Buddhism?]]
+* [[Posts/how_did_you_choose_which_school_of_buddhism_to|How did you choose which school of Buddhism to follow?]]
+* [[Posts/buddhism_sect_choosing|Buddhism sect choosing]]
+* [[Posts/how_did_you_decide_what_school_of_buddhism_to|How did you decide what school of Buddhism to follow?]]
+* [[Posts/how_did_you_find_the_right_branchschool_of|How did you find the right branch/school of Buddhism for you?]]
+* [[Posts/how_did_you_choose_your_tradition_and_school_of|How did you choose your tradition and school of buddhism, and how can I choose mine?]]
+* [[Posts/how_to_pick_a_sect_of_buddhism|How to pick a sect of Buddhism?]]
+* [[Posts/what_buddhist_tradition_do_you_follow_currently|What Buddhist tradition do you follow currently, and why?]]
+* [[Posts/why_is_zen_not_considered_as_buddhism_by_many|Is Zen a type of Buddhism?]]
 
 
 #### Where can I read Buddhist discourses (Suttas/Sutras)?
 
-* [Theravada](/r/Buddhism/wiki/theravada)
+* [Theravada](https://www.reddit.com/r/Buddhism/wiki/theravada)
 
-* [Mahayana](/r/Buddhism/wiki/mahayana)
+* [Mahayana](https://www.reddit.com/r/Buddhism/wiki/mahayana)
 
-* [Vajrayana](/r/Buddhism/wiki/vajrayana)
+* [Vajrayana](https://www.reddit.com/r/Buddhism/wiki/vajrayana)
 
 
 
@@ -165,7 +165,7 @@ At the most fundamental level, the level that is the most useful for doing insig
 
 [Source](http://www.dharmaoverground.org/web/guest/dharma-wiki/-/wiki/Main/MCTB%20Truth%20Number%20One,%20Suffering?p_r_p_185834411_title=MCTB%20Truth%20Number%20One,%20Suffering)  
 
-Related Link:  [The Four Noble Truths: Questions](http://redd.it/1z97bc)
+Related Link: [[Posts/the_four_noble_truths_questions|The Four Noble Truths: Questions]]
 
 #### How much desire/attachment do I really need to give up?
 
@@ -187,7 +187,7 @@ Nirvana refers to the final attainment of the Buddhist path where the practition
 
 Related Links:
 
-* [Please explain enlightenment.](https://www.reddit.com/r/Buddhism/comments/mzatfx/what_is_enlightenment//)
+* [[Posts/what_is_enlightenment|Please explain enlightenment.]]
 
 #### Have any of you reached enlightenment? Do you know of anyone who has?  
 
@@ -204,9 +204,9 @@ In fact, it can create problems. First, it separates you from them. Now they thi
 Whereas if you don't say what your status is, but you can tell your disciple what will happen next in their practice, and they can do the practice and see it happen, then they can develop faith in your teaching. And then, if your teaching helps them, does it matter whether you are a realized being or just someone who knows what they need to do next?
 
 Then lastly, one motivation for finding out who is enlightened would be that if you knew someone were enlightened, that might give you faith in the path and the practice of the path. But you can't know that someone is enlightened. The statement "I am an enlightened being" is only falsifiable to the person saying it, because it's a subjective experience. So if you rely on such a statement as a basis for practice, it's just as likely to lead you astray as it is to lead you to enlightenment; perhaps more so, since the world is full of people with big egos who don't really know what they are talking about.  
-[Source](http://www.reddit.com/r/Buddhism/comments/2e2fsj/have_any_of_you_reached_enlightenment_do_you_know/cjvfzfo)
+[[Posts/have_any_of_you_reached_enlightenment_do_you_know#^abhayakara|Source]]
 
-Related links:  [Is there anyone who has reached the Enlightenment now?](https://www.reddit.com/r/Buddhism/comments/rvuby5/is_there_anyone_who_has_reached_the_enlightenment/)  
+Related links:  [[Posts/is_there_anyone_who_has_reached_the_enlightenment|Is there anyone who has reached the Enlightenment now?]]  
 
 ---------------------------------------
 ---------------------------------------
@@ -230,7 +230,7 @@ Related Links:
 
 #### How do I meditate?
 
-There are literally hundreds of meditation techniques to choose from. A good starting point to help build your baseline concentration and mindfulness is [Mindfulness in Plain English](http://www.urbandharma.org/udharma4/mpe.html), a free book that covers insight meditation (vipassana) in detail. Another popular introduction is [With Each and Every Breath](http://www.dhammatalks.org/Archive/Writings/EachAndEveryBreath_v130123.pdf), a free text  on concentration-oriented meditation (samatha), with tips on posture and how to overcome difficulties with meditation.
+There are literally hundreds of meditation techniques to choose from. A good starting point to help build your baseline concentration and mindfulness is [Mindfulness in Plain English](https://archive.org/details/mindfulness-in-plain-english-bhante-gunaratana), a free book that covers insight meditation (vipassana) in detail. Another popular introduction is [With Each and Every Breath](https://www.dhammatalks.org/Archive/Writings/Ebooks/WithEachAndEveryBreath_210603.pdf), a free text  on concentration-oriented meditation (samatha), with tips on posture and how to overcome difficulties with meditation.
 
 [AudioDharma?](https://www.audiodharma.org/) also provides a free [6-week intro to meditation class](http://www.audiodharma.org/series/1/talk/1762/) that can be taken online.
 
@@ -247,9 +247,9 @@ Related Links:
 
 Related Links:
 
-* [Allow me to introduce you to my new practice: "trash meditation".](http://www.reddit.com/r/Buddhism/comments/ftfpu/allow_me_to_introduce_you_to_my_new_practice/)
-* [Noting the Four Foundations of Mindfulness](http://www.reddit.com/r/Buddhism/comments/m08xy/a_little_meditative_practice_i_like_to_do_got_any/)
-* [The Arising and Passing Away (of Dishes)](http://www.reddit.com/r/Buddhism/comments/fa11k/my_favorite_mindfulness_exercise_the_arising/)
+* [[Posts/allow_me_to_introduce_you_to_my_new_practice|Allow me to introduce you to my new practice: "trash meditation".]]
+* [[Posts/a_little_meditative_practice_i_like_to_do_got_any|Noting the Four Foundations of Mindfulness]]
+* [[Posts/my_favorite_mindfulness_exercise_the_arising|The Arising and Passing Away (of Dishes)]]
 
 #### What is jhana?
 
@@ -283,7 +283,7 @@ For the Buddha, (re)birth is facilitated by a series of processes called "depend
 
 #### Is there any evidence for rebirth? 
 
-Yes. Objectively verified, independent of Buddhism. These [rebirth evidences] (https://www.reddit.com/r/Buddhism/comments/dktouv/buddhists_should_repost_rebirth_evidences_more/?utm_source=share&utm_medium=web2x&context=3) should be enough to convince anyone with an unbiased outlook on rebirth. 
+Yes. Objectively verified, independent of Buddhism. These [[Posts/buddhists_should_repost_rebirth_evidences_more|rebirth evidences]] should be enough to convince anyone with an unbiased outlook on rebirth. 
 
 Objectively verified means that not only the kids claimed to have past life memories, the investagation in the real world concurred with the details provided by the kids. Including names of past life family, exact location to the house, family secrets no one else would know except the past self and past life family. Most cases are done before the age of the internet and parent's belief in rebirth does not affect the strenght of cases, but it does means that parents who believe in rebirth tends to take their kid's claim more seriously and thus there's more cases with parents who believe in rebirth. 
 
@@ -296,10 +296,9 @@ Humans are not only ever reborn as other humans, let alone only on this planet o
 
 **Related Discussion:**
 
-* [Can population growth be reconciled with Buddhist rebirth?](https://www.reddit.com/r/Buddhism/comments/4xcq3i/can_population_growth_be_reconciled_with_buddhist/)
-* [How can reincarnation be true if the human population is growing?]
-(https://www.reddit.com/r/Buddhism/comments/6oo22g/how_can_reincarnation_be_true_if_the_human/)
-* [If there is no self, how can there be rebirth?](http://www.reddit.com/r/Buddhism/comments/26aryf/if_there_is_noself_how_can_there_be_rebirth/)  
+* [[Posts/can_population_growth_be_reconciled_with_buddhist|Can population growth be reconciled with Buddhist rebirth?]]
+* [[Posts/how_can_reincarnation_be_true_if_the_human|How can reincarnation be true if the human population is growing?]]
+* [[Posts/if_there_is_noself_how_can_there_be_rebirth|If there is no self, how can there be rebirth?]]
 
 
 ---------------------------------------
@@ -312,8 +311,8 @@ Humans are not only ever reborn as other humans, let alone only on this planet o
 
 Related Links:
 
-* [Is Buddhism a religion?](https://www.reddit.com/r/Buddhism/comments/jisvgc/how_can_i_repent_for_the_pain_i_have_caused_others/ga8hhpl/)
-* [Buddhist view on God](https://www.reddit.com/r/Buddhism/comments/rio364/do_you_believe_in_god_gods/)
+* [[Posts/how_can_i_repent_for_the_pain_i_have_caused_others#^nyanasagara|Is Buddhism a religion?]]
+* [[Posts/do_you_believe_in_god_gods|Buddhist view on God]]
 * [Buddha's encounter with God](https://www.accesstoinsight.org/tipitaka/mn/mn.049.than.html)
 * [Vasubandhu's Argument Against God](https://plato.stanford.edu/entries/vasubandhu/#DisCreGod)
 
@@ -322,8 +321,8 @@ Related Links:
 
 Related Links:
 
-* [Can an athiest benefit from Buddhism?](https://www.reddit.com/r/Buddhism/comments/hoi1su/is_secular_practice_insulting_or_fruitless//)
-* [Is Buddhism Atheist? (2/25/15)](https://www.reddit.com/r/Buddhism/comments/svgi22/an_atheistic_religion/)
+* [[Posts/is_secular_practice_insulting_or_fruitless|Can an athiest benefit from Buddhism?]]
+* [[Posts/an_atheistic_religion|Is Buddhism Atheist? (2/25/15)]]
 
 ---------------------------------------
 ---------------------------------------
@@ -346,7 +345,7 @@ Further reading:
 * [Buddhist vegetarianism](https://en.wikipedia.org/wiki/Buddhist_vegetarianism) on Wikipedia.
 * [Vegetarianism and Buddhism](https://dhammawiki.com/index.php/Vegetarianism_and_Buddhism) (DhammaWiki.)
 * [On Fasting From a Buddhist's Perspective](https://www.urbandharma.org/udharma9/fasting.html) by Rev. Heng Sure.
-* [Rethinking Vegitarianism](http://www.reddit.com/r/Buddhism/comments/p7pdy/rethinking_vegitarianism/) (Reddit discussion.)
+* [[Posts/rethinking_vegitarianism|Rethinking Vegitarianism]] (Reddit discussion.)
 * [To Eat or Not to Eat Meat - A Buddhist reflection](https://budblooms.org/2020/10/27/to-eat-or-not-to-eat-meat-a-buddhist-reflection/) by Bhante Dhammika.
 * [Thich Nhat Hanh on veganism](https://www.youtube.com/watch?v=GDMwYC9qZ-w)
 * http://www.shabkar.org - A website dedicated to vegetarianism as a way of life for Buddhists of all schools. 
@@ -360,8 +359,8 @@ Intoxicants lead to heedlessness, which leads to bad behavior, which leads to ba
 
 Related Links:
 
-* [Comment on the Fifth Precept](http://www.reddit.com/r/Buddhism/comments/2088v6/buddhism_and_dmt/cg0wf9r)
-* [Lack of compassion for the drug user on this sub](http://www.reddit.com/r/Buddhism/comments/2cgjk7/rbuddhisms_lack_of_compassion_for_the_drug_user/)  
+* [[Posts/buddhism_and_dmt#^deleted|Comment on the Fifth Precept]]
+* [[Posts/rbuddhisms_lack_of_compassion_for_the_drug_user|Lack of compassion for the drug user on this sub]]
 
 #### What is the Buddhist take on psychedelics/entheogens?
 
@@ -374,7 +373,7 @@ Related Links:
 
 Related Links: 
 
-* [Buddhist discourse seems completely irrelevant to me now. Aimed mostly at privileged people with First-World Problems.](http://www.reddit.com/r/Buddhism/comments/qa299/buddhist_discourse_seems_completely_irrelevant_to/)
+* [[Posts/buddhist_discourse_seems_completely_irrelevant_to|Buddhist discourse seems completely irrelevant to me now. Aimed mostly at privileged people with First-World Problems.]]
 
 
 ---------------------------------------
@@ -387,18 +386,18 @@ Related Links:
 
 Related Links:
 
-* [DAE think that western society is heading in the opposite direction to buddhism?](http://www.reddit.com/r/Buddhism/comments/hdau0/dae_think_that_western_society_is_heading_in_the/)
-* [Buddhism has changed me for the better, but society seems so toxic that now I feel alone.](http://www.reddit.com/r/Buddhism/comments/g76k1/buddhism_has_changed_me_for_the_better_but/)
-* [Buddhist kindness being mistaken for weakness?](http://www.reddit.com/r/Buddhism/comments/fa8uo/buddhism_teaches_to_be_giving_generous_and_kind/)
+* [[Posts/dae_think_that_western_society_is_heading_in_the|DAE think that western society is heading in the opposite direction to buddhism?]]
+* [[Posts/buddhism_has_changed_me_for_the_better_but|Buddhism has changed me for the better, but society seems so toxic that now I feel alone.]]
+* [[Posts/buddhism_teaches_to_be_giving_generous_and_kind|Buddhist kindness being mistaken for weakness?]]
 
 #### Can Buddhism help me with my depression/anxiety?
 
 Related Links:
 
-* [Has anyone found Buddhism useful for dealing with depression and social anxiety?](http://www.reddit.com/r/Buddhism/comments/gemzt/has_anyone_found_buddhism_useful_for_dealing_with/)
-* [Buddhist perspective on depression and anxiety?](http://www.reddit.com/r/Buddhism/comments/hyiwh/buddhist_perspective_on_depression_and_anxiety/)
+* [[Posts/has_anyone_found_buddhism_useful_for_dealing_with|Has anyone found Buddhism useful for dealing with depression and social anxiety?]]
+* [[Posts/buddhist_perspective_on_depression_and_anxiety|Buddhist perspective on depression and anxiety?]]
 * [The Dalai Lama on Stress and Depression](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxkcmV3Y2xheXRvbnxneDozZGIwNTViZDhmZTU2YjM2&pli=1)
-* [Anxiety sufferers: How do you stop in-the-moment?](http://www.reddit.com/r/Buddhism/comments/ingn2/anxiety_sufferers_how_do_you_stop_inthemoment/)
+* [[Posts/anxiety_sufferers_how_do_you_stop_inthemoment|Anxiety sufferers: How do you stop in-the-moment?]]
 
 #### Is Buddhism life-denying? Why shouldn't we seek pleasure and gratification?
 
@@ -423,7 +422,7 @@ The Buddha said that a person cannot be free of suffering until they acknowledge
 
 Related Links:
 
-* [What is Karma] https://studybuddhism.com/en/essentials/what-is/what-is-karma
+* [What is Karma](https://studybuddhism.com/en/essentials/what-is/what-is-karma)
 
 * [Basic Introduction to Karma](http://www.buddhanet.net/e-learning/karma.htm)
 
@@ -441,7 +440,7 @@ A slim Buddha is more often than not the regular Śakyamuni (Gautama) Buddha.
 
 Related Links: 
 
-* [What is the difference between the Buddha statues?](https://www.reddit.com/r/Buddhism/comments/5j1mhe/what_is_the_difference_between_the_buddha_statues/) 
+* [[Posts/what_is_the_difference_between_the_buddha_statues|What is the difference between the Buddha statues?]]
 
 #### How can I tell the difference between the Śakyamuni and Amitābha Buddhas? 
 
@@ -463,7 +462,7 @@ Related Links:
 
 #### What are the metaphysical axioms put forth by Buddhism?
 
-All usage of metaphysics in Buddhism is soteriological; it is merely a tool to liberate sentient beings, not an attempt to formulate a description of the world (like philosophy is). It is because sentient beings form metaphysical concepts that Buddhism has to use that language, too. There is no goal to create a theory of reality. Actually, it is in the very dissolution of all such theories that "reality" appears. So Buddhist philosophers do not form metaphysics, but employ dialectics to attack all metaphysical positions. "Emptiness" is merely a tool. It is not something we should attach to, thus, in Nagarjuna we read that emptiness is itself empty as everything else. [ Source](http://www.reddit.com/r/Buddhism/comments/n6ij7/you_keep_using_that_word_metaphysics_i_do_not/c36myxe)
+All usage of metaphysics in Buddhism is soteriological; it is merely a tool to liberate sentient beings, not an attempt to formulate a description of the world (like philosophy is). It is because sentient beings form metaphysical concepts that Buddhism has to use that language, too. There is no goal to create a theory of reality. Actually, it is in the very dissolution of all such theories that "reality" appears. So Buddhist philosophers do not form metaphysics, but employ dialectics to attack all metaphysical positions. "Emptiness" is merely a tool. It is not something we should attach to, thus, in Nagarjuna we read that emptiness is itself empty as everything else. [[Posts/you_keep_using_that_word_metaphysics_i_do_not#^deleted|Source]]
 
 #### Can you explain the concept of dependent origination?
 
@@ -481,7 +480,7 @@ And the student was enlightened.
 
 This is an often misquoted and misused line from the Chan master Linji Yixuan who stated:
 
-> Followers of the way! If you wish to attain views and understanding in accordance with the Dharma, simply avoid becoming deluded by other. Whether inside or outside if you encounter [such delusion] kill it whenever you it. Meeting the Buddha kill the Buddha, meeting an ancestor kill the ancestor, meeting an arhat kill the arhat, meeting your parents kill your parents, meeting your family kill your family. Only then will you begin to attain liberation, no longer bound by anything, and completed free.
+> Followers of the way! If you wish to attain views and understanding in accordance with the Dharma, simply avoid becoming deluded by other. Whether inside or outside if you encounter such delusion kill it whenever you it. Meeting the Buddha kill the Buddha, meeting an ancestor kill the ancestor, meeting an arhat kill the arhat, meeting your parents kill your parents, meeting your family kill your family. Only then will you begin to attain liberation, no longer bound by anything, and completed free.
 
 So what he is actually saying is should you meet any delusion on the road, kill it.
 
@@ -496,11 +495,11 @@ When a monk goes out for alms or donations of any kind, the specific practice ma
 
 Related Links: 
 
-* [Why isn't it necessary to become a monk?](http://www.reddit.com/r/Buddhism/comments/kkyqi/why_isnt_it_necessary_to_become_a_monk/) 
+* [[Posts/why_isnt_it_necessary_to_become_a_monk|Why isn't it necessary to become a monk?]]
 
 #### Why is content supporting the New Kadampa Tradition (NKT) banned on this subreddit? 
 
-[**NOTE**: While the wording of the rule has been changed to make the implication more obvious, it may still be helpful to state explicitly that discussion of the New Kadampa Tradition *as such* is not necessarily banned. What is prohibited is the *promotion* of the teachings and practices of the NKT, its founder, [Kelsang Gyatso](http://info-buddhism.com/geshe_kelsang_gyatso.html), or affiliated groups such as the ISC/ISBC.] 
+**NOTE**: While the wording of the rule has been changed to make the implication more obvious, it may still be helpful to state explicitly that discussion of the New Kadampa Tradition *as such* is not necessarily banned. What is prohibited is the *promotion* of the teachings and practices of the NKT, its founder, [Kelsang Gyatso](http://info-buddhism.com/geshe_kelsang_gyatso.html), or affiliated groups such as the ISC/ISBC.
 
 * **The executive summary**: 
 
@@ -539,7 +538,7 @@ Please visit these sites for more information:
 
 Related threads: 
 
-* [**Hello /r/Buddhism! We are making some new changes to the posting guidelines... Please read here.**](https://www.reddit.com/r/Buddhism/comments/3yse2h/hello_rbuddhism_we_are_making_some_new_changes_to/) [This is the sub's official statement on the NKT ban.]
+* [**Hello /r/Buddhism! We are making some new changes to the posting guidelines... Please read here.**](https://www.reddit.com/r/Buddhism/comments/3yse2h/hello_rbuddhism_we_are_making_some_new_changes_to/) This is the sub's official statement on the NKT ban.
 
 * [This is a perfect example of why the New Kadampa Traddition (NKT) has a credibility problem.](https://www.reddit.com/r/Buddhism/comments/3csnm9/this_is_a_perfect_example_of_why_the_new_kadampa/)
 
