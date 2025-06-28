@@ -44,3 +44,5 @@
 # [[what_is_the_difference_between_the_buddha_statues]]
 # [[you_keep_using_that_word_metaphysics_i_do_not]]
 # [[why_isnt_it_necessary_to_become_a_monk]]
+# [[official_rbuddhism_book_recommendations]]
+# [[what_are_some_good_beginners_books_on_zen]]

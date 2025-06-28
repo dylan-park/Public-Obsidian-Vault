@@ -65,9 +65,9 @@ Related Links:
 
 Related Links:
 
-* [Buddhist Book Recommendations](https://www.reddit.com/r/Buddhism/wiki/booklist/)
+* [[Book List|Buddhist Book Recommendations]]
 
-* [What are some good beginners books on Zen Buddhism?](https://www.reddit.com/r/Buddhism/wiki/booklist#wiki_.7985_-_zen_.2F_ch.E1n_.2F_s.14Fn_.28seon.29_.2F_thi.1EC1n/)
+* [[Book List#禅 - Zen Chán Sŏn Seon Thiền|What are some good beginners books on Zen Buddhism?]]
 
 * [[Posts/ive_ready_plenty_of_buddhist_nonfiction_does|Buddhist fiction recommendations]]
 
@@ -132,11 +132,11 @@ In 1967, the First Congress of the World Buddhist Sangha Council (WBSC) unanimou
 
 #### Where can I read Buddhist discourses (Suttas/Sutras)?
 
-* [Theravada](https://www.reddit.com/r/Buddhism/wiki/theravada)
+* [[Schools/Theravada|Theravada]]
 
-* [Mahayana](https://www.reddit.com/r/Buddhism/wiki/mahayana)
+* [[Schools/Mahayana|Mahayana]]
 
-* [Vajrayana](https://www.reddit.com/r/Buddhism/wiki/vajrayana)
+* [[Schools/Vajrayana|Vajrayana]]
 
 
 

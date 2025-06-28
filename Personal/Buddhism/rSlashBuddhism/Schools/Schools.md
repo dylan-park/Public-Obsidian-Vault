@@ -1,0 +1,3 @@
+# [[Theravada]]
+# [[Mahayana]]
+# [[Vajrayana]]
