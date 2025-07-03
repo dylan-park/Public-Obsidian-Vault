@@ -1,3 +1,8 @@
+---
+tags:
+  - personal
+  - buddhism
+---
 ### GENERAL
 
 #### I’m interested in Buddhism. Where should I begin?

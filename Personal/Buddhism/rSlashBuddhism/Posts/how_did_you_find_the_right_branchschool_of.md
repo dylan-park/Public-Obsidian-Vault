@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Yukonese ⬆️ 15 _( 2015-02-21 08:04:26 )_
 ## How did you find the right branch/school of Buddhism for you?
 Original post: [https://www.reddit.com/r/Buddhism/comments/2wn14m/how_did_you_find_the_right_branchschool_of/](https://www.reddit.com/r/Buddhism/comments/2wn14m/how_did_you_find_the_right_branchschool_of/)

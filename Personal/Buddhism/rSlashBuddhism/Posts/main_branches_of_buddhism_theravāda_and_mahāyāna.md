@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Lethemyr ⬆️ 82 _( 2022-07-14 22:52:27 )_
 ## Main Branches of Buddhism (Theravāda and Mahāyāna) Comparison Chart
 Original post: [https://www.reddit.com/r/Buddhism/comments/vz8u73/main_branches_of_buddhism_theravāda_and_mahāyāna/](https://www.reddit.com/r/Buddhism/comments/vz8u73/main_branches_of_buddhism_theravāda_and_mahāyāna/)

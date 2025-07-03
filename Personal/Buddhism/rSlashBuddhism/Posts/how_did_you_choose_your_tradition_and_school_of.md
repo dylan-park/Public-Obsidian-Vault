@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/notnearlynirvana ⬆️ 10 _( 2016-09-18 00:54:03 )_
 ## How did you choose your tradition and school of buddhism, and how can I choose mine?
 Original post: [https://www.reddit.com/r/Buddhism/comments/53a1o1/how_did_you_choose_your_tradition_and_school_of/](https://www.reddit.com/r/Buddhism/comments/53a1o1/how_did_you_choose_your_tradition_and_school_of/)

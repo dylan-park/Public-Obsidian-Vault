@@ -1,3 +1,10 @@
+---
+tags:
+  - navigation
+  - personal
+  - buddhism
+  - reddit-post
+---
 # [[if_you_could_describe_buddhism_in_a_short]]
 # [[a_buddhist_elevator_speech]]
 # [[ive_ready_plenty_of_buddhist_nonfiction_does]]

@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/davidsmeaton ⬆️ 58 _( 2011-05-17 11:45:17 )_
 ## DAE think that western society is heading in the opposite direction to buddhism? 
 Original post: [https://www.reddit.com/r/Buddhism/comments/hdau0/dae_think_that_western_society_is_heading_in_the/](https://www.reddit.com/r/Buddhism/comments/hdau0/dae_think_that_western_society_is_heading_in_the/)

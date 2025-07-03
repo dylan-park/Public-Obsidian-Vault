@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Epic-Gamer-20 ⬆️ 7 _( 2020-08-13 14:39:44 )_
 ## What is the difference between Tibetan Buddhism, Theradava Buddhism, Mayahana Buddhism???
 Original post: [https://www.reddit.com/r/Buddhism/comments/i912p9/what_is_the_difference_between_tibetan_buddhism/](https://www.reddit.com/r/Buddhism/comments/i912p9/what_is_the_difference_between_tibetan_buddhism/)

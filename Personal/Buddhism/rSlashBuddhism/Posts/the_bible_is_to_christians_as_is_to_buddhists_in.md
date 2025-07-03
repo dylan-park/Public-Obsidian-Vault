@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 40 _( 2013-07-30 09:14:35 )_
 ## The bible is to Christians as \_\_\_\_\_\_\_ is to Buddhists? In what texts were the sayings of the Buddha written down?
 Original post: [https://www.reddit.com/r/Buddhism/comments/1jc7c1/the_bible_is_to_christians_as_is_to_buddhists_in/](https://www.reddit.com/r/Buddhism/comments/1jc7c1/the_bible_is_to_christians_as_is_to_buddhists_in/)

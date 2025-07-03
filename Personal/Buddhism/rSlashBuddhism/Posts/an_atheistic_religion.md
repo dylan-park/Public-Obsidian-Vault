@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/WirrkopfP ⬆️ 45 _( 2022-02-18 12:12:52 )_
 ## An atheistic religion?
 Original post: [https://www.reddit.com/r/Buddhism/comments/svgi22/an_atheistic_religion/](https://www.reddit.com/r/Buddhism/comments/svgi22/an_atheistic_religion/)

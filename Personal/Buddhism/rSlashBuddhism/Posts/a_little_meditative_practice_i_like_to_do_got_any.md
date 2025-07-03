@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/thenaturalmind ⬆️ 55 _( 2011-11-04 13:33:09 )_
 ## A little meditative practice I like to do. Got any more like this to share?
 Original post: [https://www.reddit.com/r/Buddhism/comments/m08xy/a_little_meditative_practice_i_like_to_do_got_any/](https://www.reddit.com/r/Buddhism/comments/m08xy/a_little_meditative_practice_i_like_to_do_got_any/)

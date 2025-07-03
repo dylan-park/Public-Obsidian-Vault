@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/echoxx ⬆️ 32 _( 2013-02-26 06:41:02 )_
 ## How to pick a sect of Buddhism?
 Original post: [https://www.reddit.com/r/Buddhism/comments/198w3x/how_to_pick_a_sect_of_buddhism/](https://www.reddit.com/r/Buddhism/comments/198w3x/how_to_pick_a_sect_of_buddhism/)

@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/blondonblond1 ⬆️ 3 _( 2016-08-12 09:38:57 )_
 ## Can population growth be reconciled with Buddhist rebirth?
 Original post: [https://www.reddit.com/r/Buddhism/comments/4xcq3i/can_population_growth_be_reconciled_with_buddhist/](https://www.reddit.com/r/Buddhism/comments/4xcq3i/can_population_growth_be_reconciled_with_buddhist/)

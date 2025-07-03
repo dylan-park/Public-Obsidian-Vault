@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 12 _( 2014-03-01 09:54:40 )_
 ## The Four Noble Truths: Questions
 Original post: [https://www.reddit.com/r/Buddhism/comments/1z97bc/the_four_noble_truths_questions/](https://www.reddit.com/r/Buddhism/comments/1z97bc/the_four_noble_truths_questions/)

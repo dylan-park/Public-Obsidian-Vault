@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/CarTastic ⬆️ 54 _( 2015-08-13 14:56:01 )_
 ## What Buddhist tradition do you follow currently, and why?
 Original post: [https://www.reddit.com/r/Buddhism/comments/3guthe/what_buddhist_tradition_do_you_follow_currently/](https://www.reddit.com/r/Buddhism/comments/3guthe/what_buddhist_tradition_do_you_follow_currently/)

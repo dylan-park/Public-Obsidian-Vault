@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/hyperbolist ⬆️ 60 _( 2011-12-09 18:44:02 )_
 ## You keep using that word, "Metaphysics".  I do not think it means what you think it means.
 Original post: [https://www.reddit.com/r/Buddhism/comments/n6ij7/you_keep_using_that_word_metaphysics_i_do_not/](https://www.reddit.com/r/Buddhism/comments/n6ij7/you_keep_using_that_word_metaphysics_i_do_not/)

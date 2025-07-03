@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/BrashMonkey8 ⬆️ 13 _( 2020-07-10 03:58:33 )_
 ## Is "secular" practice insulting or fruitless?
 Original post: [https://www.reddit.com/r/Buddhism/comments/hoi1su/is_secular_practice_insulting_or_fruitless/](https://www.reddit.com/r/Buddhism/comments/hoi1su/is_secular_practice_insulting_or_fruitless/)

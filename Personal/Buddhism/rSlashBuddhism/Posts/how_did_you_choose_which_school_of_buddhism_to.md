@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 10 _( 2015-08-08 05:08:01 )_
 ## How did you choose which school of Buddhism to follow?
 Original post: [https://www.reddit.com/r/Buddhism/comments/3g7qsg/how_did_you_choose_which_school_of_buddhism_to/](https://www.reddit.com/r/Buddhism/comments/3g7qsg/how_did_you_choose_which_school_of_buddhism_to/)

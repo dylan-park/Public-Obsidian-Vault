@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/neeshgufnk ⬆️ 24 _( 2018-07-10 10:39:19 )_
 ## Why is Zen not considered as Buddhism by many?
 Original post: [https://www.reddit.com/r/Buddhism/comments/8xntjd/why_is_zen_not_considered_as_buddhism_by_many/](https://www.reddit.com/r/Buddhism/comments/8xntjd/why_is_zen_not_considered_as_buddhism_by_many/)

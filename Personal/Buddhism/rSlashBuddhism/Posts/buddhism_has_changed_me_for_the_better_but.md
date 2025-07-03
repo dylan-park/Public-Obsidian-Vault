@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/RadiantBlueLight ⬆️ 73 _( 2011-03-19 19:07:19 )_
 ## Buddhism has changed me for the better, but society seems so toxic that now I feel alone. 
 Original post: [https://www.reddit.com/r/Buddhism/comments/g76k1/buddhism_has_changed_me_for_the_better_but/](https://www.reddit.com/r/Buddhism/comments/g76k1/buddhism_has_changed_me_for_the_better_but/)

@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/TheKingsPeace ⬆️ 25 _( 2021-12-17 18:50:00 )_
 ## Do you believe in God/ Gods?
 Original post: [https://www.reddit.com/r/Buddhism/comments/rio364/do_you_believe_in_god_gods/](https://www.reddit.com/r/Buddhism/comments/rio364/do_you_believe_in_god_gods/)

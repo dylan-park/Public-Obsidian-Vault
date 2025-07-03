@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/rlogan2003 ⬆️ 7 _( 2016-07-24 22:01:05 )_
 ## Buddhism sect choosing
 Original post: [https://www.reddit.com/r/Buddhism/comments/4ufas4/buddhism_sect_choosing/](https://www.reddit.com/r/Buddhism/comments/4ufas4/buddhism_sect_choosing/)

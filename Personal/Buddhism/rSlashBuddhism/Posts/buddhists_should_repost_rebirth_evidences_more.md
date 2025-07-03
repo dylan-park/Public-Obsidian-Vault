@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/DiamondNgXZ ⬆️ 47 _( 2019-10-21 02:11:52 )_
 ## Buddhists should repost Rebirth evidences more often and as a standard reply to those who have doubts about/do not believe in rebirth.
 Original post: [https://www.reddit.com/r/Buddhism/comments/dktouv/buddhists_should_repost_rebirth_evidences_more/](https://www.reddit.com/r/Buddhism/comments/dktouv/buddhists_should_repost_rebirth_evidences_more/)

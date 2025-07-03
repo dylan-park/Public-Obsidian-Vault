@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 2 _( 2014-06-25 08:38:00 )_
 ## Buddhist books containing sutras/suttas?
 Original post: []()

@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/daydreamer5589 ⬆️ 70 _( 2011-06-13 14:32:58 )_
 ## Buddhist perspective on depression and anxiety?
 Original post: [https://www.reddit.com/r/Buddhism/comments/hyiwh/buddhist_perspective_on_depression_and_anxiety/](https://www.reddit.com/r/Buddhism/comments/hyiwh/buddhist_perspective_on_depression_and_anxiety/)

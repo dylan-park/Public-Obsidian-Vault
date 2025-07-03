@@ -1,3 +1,9 @@
+---
+tags:
+  - navigation
+  - personal
+  - buddhism
+---
 # [[F.A.Q]]
 # [[Book List]]
 # [[Schools/Schools|Schools]]

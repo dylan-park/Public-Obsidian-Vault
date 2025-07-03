@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Markaniac ⬆️ 10 _( 2020-10-27 02:27:08 )_
 ## How can I repent for the pain I have caused others?
 Original post: [https://www.reddit.com/r/Buddhism/comments/jisvgc/how_can_i_repent_for_the_pain_i_have_caused_others/](https://www.reddit.com/r/Buddhism/comments/jisvgc/how_can_i_repent_for_the_pain_i_have_caused_others/)

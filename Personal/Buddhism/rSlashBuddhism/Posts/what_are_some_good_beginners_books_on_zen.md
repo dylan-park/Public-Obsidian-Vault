@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 37 _( 2009-11-18 16:49:53 )_
 ## What are some good beginners books on Zen Buddhism? Can you suggest some?
 Original post: []()

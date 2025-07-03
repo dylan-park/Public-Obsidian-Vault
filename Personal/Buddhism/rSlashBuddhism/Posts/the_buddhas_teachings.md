@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/EverythingSpirals ⬆️ 42 _( 2012-04-11 17:10:10 )_
 ## The Buddha's Teachings
 Original post: [https://www.reddit.com/r/Buddhism/comments/s4lhy/the_buddhas_teachings/](https://www.reddit.com/r/Buddhism/comments/s4lhy/the_buddhas_teachings/)

@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Lyzl ⬆️ 12 _( 2014-05-23 14:13:25 )_
 ## If there is no-self, how can there be rebirth?
 Original post: [https://www.reddit.com/r/Buddhism/comments/26aryf/if_there_is_noself_how_can_there_be_rebirth/](https://www.reddit.com/r/Buddhism/comments/26aryf/if_there_is_noself_how_can_there_be_rebirth/)

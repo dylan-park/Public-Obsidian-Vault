@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 8 _( 2017-07-05 17:05:46 )_
 ## How did you choose you're school and sect of Buddhism?
 Original post: []()

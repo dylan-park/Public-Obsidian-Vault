@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 40 _( 2022-01-04 13:24:57 )_
 ## Is there anyone who has reached the Enlightenment now?
 Original post: [https://www.reddit.com/r/Buddhism/comments/rvuby5/is_there_anyone_who_has_reached_the_enlightenment/](https://www.reddit.com/r/Buddhism/comments/rvuby5/is_there_anyone_who_has_reached_the_enlightenment/)

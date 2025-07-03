@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 107 _( 2012-02-28 19:25:08 )_
 ## Buddhist discourse seems completely irrelevant to me now. Aimed mostly at privileged people with First-World Problems.
 Original post: []()

@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/kaiser274 ⬆️ 6 _( 2016-12-18 18:42:26 )_
 ## What is the difference between the Buddha statues?
 Original post: [https://www.reddit.com/r/Buddhism/comments/5j1mhe/what_is_the_difference_between_the_buddha_statues/](https://www.reddit.com/r/Buddhism/comments/5j1mhe/what_is_the_difference_between_the_buddha_statues/)

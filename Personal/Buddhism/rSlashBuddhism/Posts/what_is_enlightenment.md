@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Anon_Monk_on_reddit ⬆️ 3 _( 2021-04-26 23:15:46 )_
 ## What is enlightenment?
 Original post: [https://www.reddit.com/r/Buddhism/comments/mzatfx/what_is_enlightenment/](https://www.reddit.com/r/Buddhism/comments/mzatfx/what_is_enlightenment/)

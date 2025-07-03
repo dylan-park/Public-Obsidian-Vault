@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/tokenbearcub ⬆️ 52 _( 2011-02-27 00:36:28 )_
 ## allow me to introduce you to my new practice: "trash meditation"
 Original post: [https://www.reddit.com/r/Buddhism/comments/ftfpu/allow_me_to_introduce_you_to_my_new_practice/](https://www.reddit.com/r/Buddhism/comments/ftfpu/allow_me_to_introduce_you_to_my_new_practice/)

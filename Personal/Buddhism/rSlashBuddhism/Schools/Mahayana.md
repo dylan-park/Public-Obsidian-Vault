@@ -1,3 +1,8 @@
+---
+tags:
+  - personal
+  - buddhism
+---
 * [English Taishō Tripiṭaka](https://sites.google.com/view/english-taisho-tripiaka/home)
 * [BDK Translations](https://bdkamerica.org/tripitaka-list/)
 * [Mahayana sutras](http://www.cttbusa.org/sutratexts.asp)

@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/mlke ⬆️ 62 _( 2011-09-26 22:50:56 )_
 ## If you could describe Buddhism in a short paragraph, how would you describe it? I always have trouble explaining it despite how many books I've read.
 Original post: [https://www.reddit.com/r/Buddhism/comments/ksaxm/if_you_could_describe_buddhism_in_a_short/](https://www.reddit.com/r/Buddhism/comments/ksaxm/if_you_could_describe_buddhism_in_a_short/)

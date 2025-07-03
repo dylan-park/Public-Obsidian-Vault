@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/budd376 ⬆️ 40 _( 2011-01-27 20:13:12 )_
 ## Buddhism teaches to be giving, generous and kind. 
 But in todays society, 'kindness' gets taken 

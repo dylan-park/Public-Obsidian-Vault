@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 16 _( 2014-08-20 09:26:41 )_
 ## Have any of you reached enlightenment? Do you know of anyone who has?
 Original post: [https://www.reddit.com/r/Buddhism/comments/2e2fsj/have_any_of_you_reached_enlightenment_do_you_know/](https://www.reddit.com/r/Buddhism/comments/2e2fsj/have_any_of_you_reached_enlightenment_do_you_know/)

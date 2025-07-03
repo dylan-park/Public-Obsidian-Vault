@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Sauwan ⬆️ 81 _( 2012-02-02 14:36:35 )_
 ## Rethinking Vegitarianism
 Original post: [https://www.reddit.com/r/Buddhism/comments/p7pdy/rethinking_vegitarianism/](https://www.reddit.com/r/Buddhism/comments/p7pdy/rethinking_vegitarianism/)
@@ -380,7 +386,11 @@ Original post: [https://www.reddit.com/r/Buddhism/comments/p7pdy/rethinking_vegi
 
 						* 🟫 **[deleted]** ⬆️ 1 _( 2012-02-03 07:56:36 )_
 
-							Hi, I'm not overlooking these. They're reasonable economic arguments but wouldn't make a significant impact on suffering. If we were all vegetarians beings that would have been reincarnated into a battery farm would take a rebirth in some other hell hole. We should try to help all beings that are suffering but we can't do this in a meaningful way with boycotts and legislation.We have many laws already about preventing harm and they a routinely ignored on an epic global scale...
+							Hi, I'm not overlooking these. They're reasonable economic arguments but wouldn't make a significant impact on suffering. If we were all vegetarians beings that would have been reincarnated into a battery farm would take a rebirth in some other hell hole. 
+
+We should try to help all beings that are suffering but we can't do this in a meaningful way with boycotts and legislation.
+
+We have many laws already about preventing harm and they a routinely ignored on an epic global scale...
 
 					* 🟥 **[Higgs_Particle](https://www.reddit.com/user/Higgs_Particle)** ⬆️ 2 _( 2012-02-03 06:52:51 )_
 

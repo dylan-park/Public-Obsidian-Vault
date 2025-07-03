@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/a_cup_of_juice ⬆️ 24 _( 2010-04-19 00:17:42 )_
 ## I've ready plenty of Buddhist non-fiction, does anybody have any Buddhist fiction to recommend?
 Original post: [https://www.reddit.com/r/Buddhism/comments/bsta6/ive_ready_plenty_of_buddhist_nonfiction_does/](https://www.reddit.com/r/Buddhism/comments/bsta6/ive_ready_plenty_of_buddhist_nonfiction_does/)

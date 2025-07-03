@@ -1,3 +1,8 @@
+---
+tags:
+  - personal
+  - buddhism
+---
 * [Map of the Pali Canon](http://imgur.com/51aU7H2) ([source](http://www.dhammawheel.com/viewtopic.php?f=19&t=20588))
 * [Access to Insight](http://www.accesstoinsight.org/index.html) | [FAQ](http://www.accesstoinsight.org/faq.html)
 * [Budas.Org Guide To Theravada Buddhism](http://www.budsas.org/ebud/ebidx.htm)

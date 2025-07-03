@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/AliceofSwords ⬆️ 23 _( 2015-03-13 09:47:29 )_
 ## How did you decide what school of Buddhism to follow?
 Original post: [https://www.reddit.com/r/Buddhism/comments/2yw8ju/how_did_you_decide_what_school_of_buddhism_to/](https://www.reddit.com/r/Buddhism/comments/2yw8ju/how_did_you_decide_what_school_of_buddhism_to/)

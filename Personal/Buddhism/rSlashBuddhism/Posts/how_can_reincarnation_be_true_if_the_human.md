@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/cogitoe ⬆️ 6 _( 2017-07-21 13:57:31 )_
 ## How can reincarnation be true if the human population is growing?
 Original post: [https://www.reddit.com/r/Buddhism/comments/6oo22g/how_can_reincarnation_be_true_if_the_human/](https://www.reddit.com/r/Buddhism/comments/6oo22g/how_can_reincarnation_be_true_if_the_human/)

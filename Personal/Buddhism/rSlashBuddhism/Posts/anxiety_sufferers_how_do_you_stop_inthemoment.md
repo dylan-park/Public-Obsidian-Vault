@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/thecompu ⬆️ 30 _( 2011-07-12 15:11:27 )_
 ## Anxiety sufferers: How do you stop in-the-moment?
 Original post: [https://www.reddit.com/r/Buddhism/comments/ingn2/anxiety_sufferers_how_do_you_stop_inthemoment/](https://www.reddit.com/r/Buddhism/comments/ingn2/anxiety_sufferers_how_do_you_stop_inthemoment/)

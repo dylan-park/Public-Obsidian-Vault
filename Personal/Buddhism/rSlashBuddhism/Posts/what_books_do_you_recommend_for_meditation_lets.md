@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Meditation** | Posted by u/sacca7 ⬆️ 61 _( 2011-10-15 12:54:38 )_
 ## What Books do you Recommend for Meditation? Let's get a list going.
 Original post: [https://www.reddit.com/r/Meditation/comments/ld3vp/what_books_do_you_recommend_for_meditation_lets/](https://www.reddit.com/r/Meditation/comments/ld3vp/what_books_do_you_recommend_for_meditation_lets/)

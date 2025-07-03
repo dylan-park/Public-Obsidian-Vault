@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/[deleted] ⬆️ 65 _( 2011-03-30 11:09:58 )_
 ## Has anyone found Buddhism useful for dealing with depression and social anxiety? 
 Original post: [https://www.reddit.com/r/Buddhism/comments/gemzt/has_anyone_found_buddhism_useful_for_dealing_with/](https://www.reddit.com/r/Buddhism/comments/gemzt/has_anyone_found_buddhism_useful_for_dealing_with/)

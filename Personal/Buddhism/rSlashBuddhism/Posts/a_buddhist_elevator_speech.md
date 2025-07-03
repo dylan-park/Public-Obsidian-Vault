@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/ohdmt ⬆️ 7 _( 2013-12-31 03:07:03 )_
 ## A Buddhist Elevator speech?
 Original post: [https://www.reddit.com/r/Buddhism/comments/1u2bii/a_buddhist_elevator_speech/](https://www.reddit.com/r/Buddhism/comments/1u2bii/a_buddhist_elevator_speech/)

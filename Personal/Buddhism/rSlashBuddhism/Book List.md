@@ -1,3 +1,8 @@
+---
+tags:
+  - personal
+  - buddhism
+---
 # /r/Buddhism Book List 
 
 *This list is almost always under construction. For recommendations on other topics, using the search function is highly encouraged.* 

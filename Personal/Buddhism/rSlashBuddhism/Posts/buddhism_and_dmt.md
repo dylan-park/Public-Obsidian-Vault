@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Straw_Bear ⬆️ 4 _( 2014-03-12 13:56:41 )_
 ## Buddhism and DMT
 Original post: [https://www.reddit.com/r/Buddhism/comments/2088v6/buddhism_and_dmt/](https://www.reddit.com/r/Buddhism/comments/2088v6/buddhism_and_dmt/)

@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/thenaturalmind ⬆️ 61 _( 2012-02-13 14:44:39 )_
 ## Official r/Buddhism Book Recommendations!
 Original post: [https://www.reddit.com/r/Buddhism/comments/pnhqj/official_rbuddhism_book_recommendations/](https://www.reddit.com/r/Buddhism/comments/pnhqj/official_rbuddhism_book_recommendations/)

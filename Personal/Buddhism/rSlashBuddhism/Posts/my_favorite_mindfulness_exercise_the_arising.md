@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/thenaturalmind ⬆️ 43 _( 2011-01-27 14:06:07 )_
 ## My favorite mindfulness exercise: The Arising &amp; Passing Away (of Dishes)
 Original post: [https://www.reddit.com/r/Buddhism/comments/fa11k/my_favorite_mindfulness_exercise_the_arising/](https://www.reddit.com/r/Buddhism/comments/fa11k/my_favorite_mindfulness_exercise_the_arising/)

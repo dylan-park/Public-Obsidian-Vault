@@ -1,3 +1,9 @@
+---
+tags:
+  - personal
+  - buddhism
+  - reddit-post
+---
 **r/Buddhism** | Posted by u/Sidian ⬆️ 44 _( 2011-09-19 22:48:38 )_
 ## Why isn't it necessary to become a monk?
 Original post: [https://www.reddit.com/r/Buddhism/comments/kkyqi/why_isnt_it_necessary_to_become_a_monk/](https://www.reddit.com/r/Buddhism/comments/kkyqi/why_isnt_it_necessary_to_become_a_monk/)

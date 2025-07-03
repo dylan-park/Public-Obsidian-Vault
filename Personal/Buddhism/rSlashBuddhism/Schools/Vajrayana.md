@@ -1,3 +1,8 @@
+---
+tags:
+  - personal
+  - buddhism
+---
 * [Rigpa Wiki](http://www.rigpawiki.org/index.php?title=Main_Page)
 * [84000.co Translation Project](http://84000.co)
 * [The Berzin Archives](http://www.berzinarchives.com/web/en/index.html)
